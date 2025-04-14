@@ -1,0 +1,368 @@
+.formholder {
+  /* border: 1px solid wheat; */
+  width: 80%;
+  /* height: 50vh; */
+  border-radius: 1.6875rem;
+  background: rgba(217, 217, 217, 0.03);
+  height: min-content;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.mainformsection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 5rem 0rem;
+  justify-content: center;
+}
+
+/* Base styles */
+.contact-section {
+  width: 100%;
+  height: min-content;
+  color: #ffffffd3;
+  font-family: var(--lightfont);
+}
+
+/* Grid layout */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+/* Benefits column */
+.benefits-header h2 {
+  font-size: clamp(20px, 1.75rem, 24px) !important;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #ff3b30;
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.benefit-item span {
+  font-size: clamp(15px, 1rem, 18px) !important;
+}
+
+.check-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: clamp(26px, 1.5rem, 30px) !important;
+  height: clamp(26px, 1.5rem, 30px) !important;
+  background-color: #ff3b30;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.icon {
+  width: 15px;
+  /* height: 1.5rem; */
+  color: white;
+}
+
+.benefits-description {
+  font-size: clamp(12px, 1rem, 16px) !important;
+  color: #b3b3b3;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.contact-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 9999px;
+  padding: 8px 34px;
+  font-size: clamp(14px, 1rem, 18px) !important;
+  cursor: pointer;
+  margin-top: 5px;
+  font-family: var(--lightfont);
+  transition: all 0.2s ease;
+}
+
+.contact-button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Form column */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #4a4a4a;
+  color: white;
+  padding: 0.5rem 0;
+  font-size: 15px;
+  font-family: var(--lightfont);
+  outline: none;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-bottom-color: white;
+}
+
+.form-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  padding-right: 2rem;
+}
+
+.form-textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* Brand preference section */
+.brand-preference {
+  margin-bottom: 1.5rem;
+}
+
+.preference-label {
+  font-size: 15px;
+  color: #b3b3b3;
+  margin-bottom: 0.75rem;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.custom-checkbox {
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  border: 1px solid #ff3b30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox-mark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 0.2s ease;
+}
+
+.checkbox-input:checked ~ .checkbox-mark {
+  background-color: #ff3b30;
+}
+
+.checkbox-label {
+  font-size: 15px;
+  font-family: var(--lightfont);
+}
+
+/* Send button */
+.send-button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+}
+
+.send-button {
+  width: 60px;
+  height: 60px;
+  /* padding: 1rem; */
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #ff3b30;
+  color: #ff3b30;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  /* padding: 10px 10px; */
+  justify-content: center;
+}
+
+.send-button:hover {
+  background-color: #ff3b30;
+  color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .contact-grid {
+    padding: 3rem !important;
+  }
+  .formholder {
+    /* border: 1px solid wheat; */
+    width: 95%;
+  }
+
+  .benefits-header h2 {
+    margin-bottom: 25px;
+  }
+
+  .benefit-item {
+    margin-bottom: 8px;
+  }
+  .benefits-list {
+    margin-bottom: 20px;
+  }
+  .contact-button {
+    margin-bottom: 50px;
+  }
+  .contact-button {
+    padding: 8px 34px;
+    font-size: clamp(13px, 1.5rem, 16px) !important;
+  }
+}
+@media (min-width: 768px) {
+  .contact-section {
+    padding: 3rem 2rem;
+  }
+
+  .benefits-header h2 {
+    /* font-size: 2rem; */
+  }
+
+  .form-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+
+  .benefits-header h2 {
+    /* font-size: 2.25rem; */
+  }
+}
+
+/* Add these styles to your Productpageform.css file */
+
+/* Base form styling */
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Label styling */
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 300;
+
+  font-family: var(--lightfont);
+  color: #444;
+  font-size: 15px;
+}
+
+/* Improved select styling */
+.form-select {
+  width: 100%;
+  padding: 12px 15px;
+  border-bottom: 1px solid #4a4a4a;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #ffffffd3;
+  /* background-color: #000000; */
+
+  font-family: var(--lightfont);
+
+  /* Custom dropdown arrow */
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 16px;
+
+  /* Prevent text overflow */
+  text-overflow: ellipsis;
+
+  /* Transition for hover effect */
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus state */
+.form-select:focus {
+  outline: none;
+  border-color: #4a4a4a;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+/* Hover state */
+.form-select:hover {
+  border-color: #aaa;
+}
+
+/* Style for placeholder option */
+.form-select option[disabled] {
+  color: #666;
+  font-style: italic;
+}
+
+/* Style for select options */
+.form-select option {
+  padding: 10px;
+  color: #333;
+}
+
+/* For browsers that don't support custom appearance */
+@supports not (appearance: none) {
+  .form-select {
+    padding-right: 30px;
+  }
+}

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--mainblack);
+  color: white;
+}
+
+@font-face {
+  font-family: "oxygen-light-font";
+  src: url("/fonts/oxygen.light.woff2") format("woff2"),
+    url("/fonts/oxygen.light.woff") format("woff"),
+    url("/fonts/oxygen.light.otf") format("truetype");
+  font-display: swap; /* Ensures text is visible during font load */
+}
+
+@font-face {
+  font-family: "oxygen-regular-font";
+  src: url("/fonts/oxygen.regular.woff2") format("woff2"),
+    url("/fonts/oxygen.regular.woff") format("woff"),
+    url("/fonts/oxygen.regular.otf") format("truetype");
+  font-display: swap; /* Ensures text is visible during font load */
+}
+
+@font-face {
+  font-family: "oxygen-bold-font";
+  src: url("/fonts/oxygen.bold.woff2") format("woff2"),
+    url("/fonts/oxygen.bold.woff") format("woff"),
+    url("/fonts/oxygen.bold.otf") format("truetype");
+  font-display: swap; /* Ensures text is visible during font load */
+}
+
+.oxygen-light-font {
+  font-family: oxygen-light-font, sans-serif;
+}
+.oxygen-regular-font {
+  font-family: oxygen-regular-font, sans-serif;
+}
+.oxygen-bold-font {
+  font-family: oxygen-bold-font, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --mainblack: #0c0b0b;
+  --btnbg: #d9d9d9;
+  --fontwhite: #c3c3c3;
+  --lightfont: oxygen-light-font, sans-serif;
+  --red:#E8361E;
+}
+html {
+  font-size: 0.833333vw;
+}
+#red{
+  color: #E8361E;
+}
+
+
+/* For Firefox */
+html {
+  /* scrollbar-width: thin; Keep scrollbars, but make them thin */
+  overflow-x: hidden; /* Hide horizontal scrollbar specifically */
+}
+
+/* For IE and Edge */
+body {
+  overflow-x: hidden; /* Hide horizontal overflow */
+  /* Do not add -ms-overflow-style: none as that would hide all scrollbars */
+}
+
+/* Alternative approach if the above doesn't work */
+.container-with-overflow {
+  overflow-y: auto; /* Show vertical scrollbar when needed */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+@media(max-width:992px){
+  html {
+    font-size: 1.3vw;
+  }
+}
+@media(max-width:768px){
+  html {
+    font-size: 1.5vw;
+  }
+  
+}
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust width */
+}
+
+/* Track (the background) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 12px;
+}
+
+/* Scrollbar handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #e8361e !important; /* red */
+  border-radius: 12px;
+}
+
+/* Scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff1e00 !important;
+}
+
+.marquee-gap{
+  height: 100px;
+  width: 100%;
+  /* background-color: red; */
+}

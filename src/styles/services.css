@@ -1,0 +1,312 @@
+.service-section-main-div {
+  position: relative;
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 50px;
+  /* border: 2px solid #e8361e; */
+}
+/* ? */
+.service-blob {
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+  top: 25%;
+  right: 0% !important;
+  /* rotate: 0deg; */
+  /* border: 2px solid #e8361e; */
+  position: absolute;
+z-index: -1;
+}
+.service-blob img {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid green; */
+}
+/* ? */
+.service-section-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.service-section-heading h1 {
+  font-family: oxygen-regular-font, sans-serif;
+  font-size: clamp(40px, 5vw, 60px);
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.service-section-heading h1 span {
+  color: #e8361e;
+}
+
+.service-section-heading p {
+  width: 35%;
+  font-family: oxygen-light-font, sans-serif;
+  font-size: clamp(13px, 1vw, 14px);
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #999999;
+}
+
+/**** service-section-background ****/
+.service-section-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.service-section-background h1 {
+  font-size: clamp(8rem, 15vw, 16.563rem);
+  font-family: oxygen-regular-font, sans-serif;
+  white-space: nowrap;
+  color: white;
+  letter-spacing: 5px;
+}
+
+/**** service-cards-section ****/
+.service-cards-section {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+/* Default Card Styles */
+.service-card {
+  height: 340px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--lightfont);
+  align-items: start;
+  justify-content: center;
+  border-radius: 12px;
+  /* font-size: 18px; */
+  /* font-weight: bold; */
+  padding: 15px 50px 15px 20px;
+  transition: all 0.3s ease-in-out;
+  flex: 1 0 350px; /* Fixed size for non-transparent cards */
+}
+
+.border-top-left {
+  border-top-left-radius: 100px;
+}
+
+.border-top-right {
+  border-top-right-radius: 100px;
+}
+
+.service-card h1 {
+  /* font-family: oxygen-light-font, sans-serif; */
+  font-size: 65px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.service-card h6 {
+  font-weight: 500 !important;
+  /* font-family: oxygen-light-font, sans-serif; */
+  /* border: 2px solid green; */
+  text-transform: capitalize;
+  margin-top: 15px;
+  /* font-size: clamp(13px,2vw,18px) */
+  font-size: 18px;
+}
+
+/* Lines */
+.white-line {
+  width: 100%;
+  height: 0.5px;
+  background-color: white;
+}
+
+.orange-line {
+  width: 100%;
+  height: 0.5px;
+  background-color: #e8361e;
+}
+
+/* Transparent Cards (Shrinkable, Max Width 35px) */
+.transparent {
+  border: none;
+  flex: 0 0 340px;
+}
+
+/* Orange Background with White Text */
+.orange-bg {
+  background: #e8361e;
+  color: white;
+}
+
+/* Glassmorphism with Orange Text */
+.glassmorphism-orange {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  color: #e8361e;
+}
+
+/* Glassmorphism with White Text */
+.glassmorphism-white {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  color: white;
+}
+
+@media (max-width: 1480px) {
+  .hidden-on-laptop {
+    display: none !important;
+  }
+
+  .service-card {
+    width: calc(33.33% - 16px);
+    height: 320px;
+    flex: 0 0 calc(33.33% - 16px);
+  }
+}
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .service-section-main-div {
+    padding: 20px 30px 0;
+  }
+
+  .service-section-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .service-section-heading p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .service-card {
+    width: calc(50% - 16px);
+    height: 320px;
+    flex: 0 0 calc(50% - 16px);
+    padding: 15px 30px 15px 20px;
+  }
+
+  .transparent {
+    display: none; /* Hide transparent cards on tablet */
+  }
+
+  .service-section-background h1 {
+    font-size: 10rem;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .service-section-main-div {
+    padding: 15px 20px 0;
+  }
+
+  .service-section-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .service-section-heading h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 0;
+  }
+
+  .service-section-heading p {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .service-cards-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+
+  .service-card {
+    width: 300px;
+    height: auto;
+    min-height: 300px;
+    margin: 0;
+    flex: 0 0 300px;
+    padding: 30px 20px;
+    border-top-left-radius: 100px !important;
+    border-top-right-radius: 12px !important;
+    border-bottom-left-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+    display: block !important; /* Show all cards by default */
+  }
+
+  /* Only hide transparent cards */
+  .transparent {
+    display: none !important;
+  }
+
+  /* Remove these conflicting rules */
+  /* .service-card:not(.orange-bg) {
+    display: none;
+  } */
+
+  /* .orange-bg {
+    display: block !important;
+  } */
+
+  .transparent {
+    display: block; /* Show transparent cards */
+  }
+
+  .service-card h1 {
+    /* font-size: 3.5rem; */
+    margin-bottom: 15px;
+  }
+
+  .service-card h6 {
+    /* font-size: 1rem; */
+    line-height: 1.5;
+  }
+
+  .service-section-background {
+    display: none; /* Hide background text on mobile */
+  }
+
+
+
+  /* Ensure the orange card gets proper styling */
+  .orange-bg {
+    display: block !important;
+    background: #e8361e;
+    color: white;
+  }
+
+  /* Line styling for mobile */
+  .white-line {
+    margin: 5px 0 15px;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  .service-section-main-div {
+    padding: 15px 15px 0;
+  }
+
+  .service-section-heading h1 {
+    font-size: 36px;
+  }
+
+  .service-card {
+    min-height: 220px;
+  }
+}

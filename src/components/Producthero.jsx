@@ -1,0 +1,189 @@
+import React from 'react'
+import "../styles/Homehero.css";
+import "../styles/Producthero.css";
+import Navbar from "./Navbar";
+
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+export default function Abouthero() {
+  gsap.registerPlugin(ScrollToPlugin)
+  const handleScroll = () => {
+    // Get the total height of the page minus the viewport height
+    const bottomPosition = document.body.scrollHeight - window.innerHeight;
+    
+    gsap.to(window, {
+      scrollTo: {
+        y: bottomPosition,
+        autoKill: true,
+      },
+      duration: 2, // Slightly longer duration since we're going all the way to the bottom
+      ease: "power2.inOut",
+    });
+  };
+
+  useGSAP(() => {
+    // Set the delay based on whether preloader is shown
+    // const animationDelay = showPreloader ? 8 : 1.5;
+
+    // Create a timeline with the appropriate delay
+    const tl = gsap.timeline({delay:0.6});
+
+    // Hide elements initially
+    gsap.set(".boundingelem", {
+      y: 70,
+      opacity: 0,
+    });
+
+    // Animate the text elements
+    tl.to(".boundingelem", {
+      y: 0,
+      opacity: 1,
+      duration: 0.8,
+      stagger: 0.2,
+      ease: "power2.out",
+    });
+
+    tl.to(
+      ".herobuttonholder button",
+      {
+        opacity: 1,
+        duration: 0.6,
+        ease: "power2.out",
+      },
+      "same2"
+    );
+
+    tl.from(
+      ".herotextholder",
+      {
+        opacity: 0,
+        duration: 0.6,
+        ease: "power2.out",
+      },
+      "same2"
+    );
+
+    tl.from(
+      ".herosection2 p",
+      {
+        opacity: 0,
+        duration: 0.6,
+        ease: "power2.out",
+      },
+      "same2"
+    );
+
+    tl.from(
+      "#gdownarrow",
+      {
+        y: -50,
+        opacity: 0,
+        duration: 0.6,
+        ease: "power2.out",
+      },
+      "same2"
+    );
+
+    tl.from(
+      "#left",
+      {
+        x: "-100%",
+        duration: 1,
+        opacity: 0,
+        ease: "power2.out",
+      },
+      0
+    );
+
+    tl.from(
+      "#right",
+      {
+        x: "100%",
+        duration: 1,
+        opacity: 0,
+        ease: "power2.out",
+      },
+      0
+    );
+
+    // Start blob animation after the timeline completes
+    tl.call(() => {
+      // Start the blob animation after the main animation timeline
+      if (blob1Ref.current) {
+        animateRandomly(blob1Ref.current);
+      }
+    });
+
+    // Cleanup function
+    return () => {
+      if (blob1Ref.current) {
+        gsap.killTweensOf(blob1Ref.current);
+      }
+    };
+  }, []); // Include showPreloader in dependencies to re-run when it changes
+
+  return (
+
+    <>
+    
+          <div className="homehero">
+           
+              {/* Blob images */}
+          <img src="/img/about blob.png" alt="" id='abblob' />
+            <Navbar />
+            <div className="mainhero">
+              <div className="herosection1">
+                <div className="herotextholder">
+                  {/* <img src="/img/Ellipse.svg" alt="" /> */}
+                  {/* <p>
+                    Server, Cloud Management,
+                    <br /> Network Solutions
+                  </p> */}
+                </div>
+                <div className="heroimageholder" >
+                  <img src="/img/product arrow2.png" alt=""  id="left" />
+                </div>
+                <div className="bottomrow"  id="left">
+                  <div className="scrolldown"  onClick={handleScroll}>
+                    <img src="/img/arowdown.svg" alt="" />
+                  </div>
+                  <div className="scrolltext"  onClick={handleScroll}>
+                    <p>scroll down for more</p>
+                  </div>
+                </div>
+              </div>
+              <div className="herosection2">
+                <h1 id="newtext">Products thats<br/> <span id='red'>do it</span></h1>
+                {/* <h4>One-stop destination for all IT & ELECTRONICS leading it hardware and software <br/> supplies in dubai</h4> */}
+                <div className="herobuttonholder">
+                  {/* <button id='explorebtn'>Explore <img src="/img/Varrow.svg"></img></button> */}
+                  <button id='contactbtn'>Contact </button>
+                </div>
+                <img src="/img/Group 1a.png"  id="gdownarrow" alt="" />
+                {/* <p>Corporate IT Hardware & Software Suppliers <br/>From All Major Brands</p> */}
+              </div>
+              <div className="herosection1" id="hero2">
+                <div className="herotextholder" id="herotextholder2" >
+                  {/* <img src="/img/Ellipse.svg" alt="" />
+                  <p>
+                  Maintenance, Security & 
+                    <br /> CCTV Installation
+                  </p> */}
+                </div>
+                <div className="heroimageholder" id='heroimageholder2'>
+                  <img src="/img/product arrow1.png" alt="" id="right"  />
+                </div>
+                <div className="bottomrow" id='bottomrow2'>
+                  {/* <div className="showreel">
+                    <img src="/img/reel.svg" alt="" />
+                    <p>Show reel</p>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+    
+    </>
+  )
+}

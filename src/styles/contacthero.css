@@ -1,0 +1,13 @@
+#contact-hero{
+    flex-direction: column;
+    height: min-content !important;
+    padding: 30px;
+    background-color: grey;
+}
+
+
+@media (max-width: 768px) {
+    #contact-marquee {
+      display: none !important;
+    }
+  }

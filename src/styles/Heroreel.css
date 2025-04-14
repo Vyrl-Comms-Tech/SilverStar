@@ -1,0 +1,85 @@
+.heroreel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    /* width: 100%; */
+    z-index: 20;
+    /* height: 100vh; */
+    /* background-color: yellow; */
+  }
+  .heroreel .showreels-video-section {
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    height: 100vh;
+    /* border-radius: 0px!important; */
+  }
+  .heroreel .showreels-video-section .videos-container video {
+    border-radius: 11px !important;
+    /* border-radius: 0; */
+  }
+  .showreels-arrow-section {
+    /* background-color: var(--mainblack) !important; */
+    /* padding: 5px 0px !important; */
+    position: relative;
+    /* height: min-content; */
+    /* top: 25px; */
+    /* height: min-content !important; */
+    /* height: min-content; */
+  }
+  #heroreelbtn {
+     
+      position: relative;
+      height: min-content;
+      top: -40px;
+      right: 11px;
+      padding: 0px !important;
+      height: min-content !important;
+      z-index: 100;
+      /* height: min-content; */
+  }
+  #herozoom {
+    position: absolute;
+    z-index: 10!important;
+    /* left: 15px !important; */
+    bottom: 26px !important;
+    right: 11px;
+    /* bottom: 60% !important; */
+    /* right: 5px !important; */
+  }
+  @media(max-width:1300px){
+    #herozoom{
+    z-index: 10!important;
+    right: 18px!important;
+  }
+}
+  @media (max-width: 768px) {
+      .heroreel .showreels-video-section .videos-container video {
+          border-radius: 0px !important;}
+      .showreels-arrow-section {
+     
+          position: relative;
+          height: min-content;
+          top: -35px;
+          height: min-content !important;
+          z-index: 100;
+          /* height: min-content; */
+      }
+      .showreels-video-zoom {
+        position: absolute;
+        
+        bottom: 40px !important;
+        right: 11px !important;
+      }
+      .showreels-video-zoom  img{
+          width: 25px;
+      }
+    .arrow-left svg,
+    .arrow-right svg {
+      width: 30px;
+      height: 30px;
+      /* display: none; */
+    }
+  }

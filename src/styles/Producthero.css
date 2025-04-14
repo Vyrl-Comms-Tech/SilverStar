@@ -1,0 +1,21 @@
+#abblob {
+  position: absolute;
+  top: 20px;
+  left: 22%;
+  width: 60vw;
+  z-index: -1;
+  height: 95vh;
+}
+.homehero{
+    position: relative;
+}
+@media(max-width:768px){
+  
+  #producthead{
+    width: 100%;
+    /* border: 1px solid wheat; */
+  }
+  #producthead h1{
+    white-space: wrap !important;
+  }
+}

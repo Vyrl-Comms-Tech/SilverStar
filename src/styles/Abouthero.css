@@ -1,0 +1,19 @@
+#abblob2 {
+  position: absolute;
+  /* border: 1px solid white; */
+  top: 0px;
+  left: 22%;
+  z-index: -1;
+  /* width: 60vw; */
+  /* height: 95vh; */
+}
+.homehero {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+@media screen and (max-width: 600px) {
+  #newtext {
+    margin-bottom: 45px;
+  }
+}

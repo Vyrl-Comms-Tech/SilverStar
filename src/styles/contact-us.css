@@ -1,0 +1,240 @@
+.contact-us-container-main {
+  width: 100%;
+  padding: 80px 30px;
+  height: auto !important;
+  /* margin-block: 50px; */
+  /* min-height: 500px; */
+  /* margin-bottom: 100px; */
+  /* padding-top: 100px; */
+}
+.contact-us-container {
+  display: flex;
+  /* background-color: purple; */
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  color: white;
+  padding: 80px;
+  height: 100%;
+  border-radius: 1.6875rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  font-family: var(--lightfont);
+  max-width: 1500px;
+  min-height: 70dvh;
+  margin: 0 auto;
+  /* margin-bottom: 30px; */
+  /* border: 2px solid green; */
+}
+.contact-us-img {
+  position: absolute;
+  top: -40%;
+  left: 0;
+}
+.contact-us-header {
+  margin-bottom: 2rem;
+}
+
+.contact-us-title {
+  font-size: clamp(40px, 2vw, 50px) !important;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.contact-us-subtitle {
+  font-size: clamp(20px, 2vw, 24px);
+  font-weight: 300;
+  opacity: 0.9;
+  /* text-transform: capitalize; */
+}
+
+.contact-us-highlight {
+  color: #ff3e3e;
+  font-weight: 300;
+}
+
+.contact-us-content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  font-weight: 300;
+}
+
+.contact-us-form {
+  flex: 1;
+  font-weight: 300;
+  margin-left: 2rem;
+}
+
+.contact-us-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 15px;
+  /* border: 2px solid green; */
+
+}
+
+.contact-us-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact-us-item span {
+  font-size: clamp(11px, 1vw, 18px) !important;
+}
+.contact-us-icon {
+  background-color: #ff3e3e;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-us-icon svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.contact-us-address {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.contact-us-form {
+  width: 100%;
+}
+.contact-us-form-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* background-color: green; */
+}
+
+.form-us-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-us-group {
+  flex: 1;
+  position: relative;
+}
+
+.contact-us-input {
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  /* font-size: 13px; */
+  font-size: clamp(15px, 1vw, 18px) !important;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.contact-us-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-us-input:focus {
+  border-bottom: 1px solid #ff3e3e;
+}
+
+.form-us-submit {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.send-us-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #ff3e3e;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  font-size: 13px;
+}
+
+.send-us-button:hover {
+  background-color: #ff3e3e;
+  /* transform: scale(1.05); */
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  #contact-hero {
+    padding: 2vw 5vw;
+  }
+  .contact-us-container {
+    /* background-color: green; */
+    padding: 2rem;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .contact-us-content {
+    flex-direction: column;
+  }
+
+  .contact-us-form {
+    margin-left: 0;
+    margin-bottom: 3rem;
+    order: 1;
+    /* Center the form in mobile view */
+    max-width: 500px;
+    align-self: flex-start;
+  }
+
+  .contact-us-info {
+    order: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-us-item span {
+    position: relative;
+    left: 5px;
+    bottom: 1px;
+    /* font-size: clamp(11px, 1vw, 18px) !important; */
+  }
+  .contact-us-container {
+    padding: 4.5rem;
+    width: 100%;
+  }
+
+  .form-us-row {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .contact-us-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .contact-us-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 1550px) and (min-width: 992px) {
+  .home-marquee-contact {
+    height: 25vh;
+  }
+}
