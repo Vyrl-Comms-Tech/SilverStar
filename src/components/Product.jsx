@@ -41,7 +41,7 @@ const Product = ({ isAboutPage = false }) => {
   useGSAP(() => {
     // Check if we're on mobile
     const isMobile = window.innerWidth <= 768;
-    
+
     if (isMobile) {
       // Mobile animations
       gsap.fromTo(
@@ -49,23 +49,23 @@ const Product = ({ isAboutPage = false }) => {
         { y: 30, opacity: 0 },
         { y: 0, opacity: 1, duration: 1, ease: "power2.out" }
       );
-      
+
       gsap.fromTo(
         ".product-para",
         { opacity: 0 },
         { opacity: 1, duration: 1, ease: "power1.inOut", delay: 0.3 }
       );
-      
+
       gsap.fromTo(
         ".product-glass-div",
         { y: 20, opacity: 0 },
-        { 
-          y: 0, 
-          opacity: 1, 
-          duration: 0.8, 
-          stagger: 0.2, 
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.8,
+          stagger: 0.2,
           ease: "back.out(1.2)",
-          delay: 0.5
+          delay: 0.5,
         }
       );
     } else {
@@ -157,7 +157,7 @@ const Product = ({ isAboutPage = false }) => {
           </div>
         </div>
       ))}
-      
+
       {/* product lines - hidden on mobile */}
       <div className="product-line-svg-main-div">
         <div className="product-line-svg1">
@@ -257,11 +257,11 @@ const Product = ({ isAboutPage = false }) => {
         </div>
       </div>
       <div className="product-last-section">
-        <h4>WITHIN YOUR STIPULATED BUDGET</h4>
+        <h4>As a leading IT solutions provider in UAE</h4>
         <p>
-          As a leading IT reseller in Dubai, UAE we find the right solution for
-          your needs, our team will quickly source and supply the products
-          required and then integrate them into your network.
+          We specialize in sourcing, supplying, and seamlessly integrating the
+          right products for your business — all while ensuring we stay within
+          your defined budget.
         </p>
       </div>
     </div>

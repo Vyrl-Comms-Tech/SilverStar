@@ -9,24 +9,25 @@ gsap.registerPlugin(ScrollTrigger);
 const Counter = () => {
   const counterData = [
     {
-      number: 100,
-      label: "Buyers",
+      number: 28,
+      label: "Years",
       description:
-        "The most satisfaction we get every day is through helping our clients, because customer service is in our DNA",
+        " of delivering seamless IT solutions across the UAE and MENA region.",
       hasImage: false,
     },
     {
       number: 500,
-      label: "Buyers",
+      label: "Global Brands",
       description:
-        "The most satisfaction we get every day is through helping our clients, because customer service is in our DNA",
+        " and certified partnerships including Lenovo, Dell, HP, Microsoft, and Cisco",
       hasImage: true,
     },
     {
-      number: 1000,
-      label: "Buyers",
+      number: 24,
+      suffix: "/7",
+      label: "Support",
       description:
-        "The most satisfaction we get every day is through helping our clients, because customer service is in our DNA",
+        "to ensure your business runs without interruptions — onsite, remote, and online.",
       hasImage: false,
     },
   ];
@@ -90,13 +91,12 @@ const Counter = () => {
     <div className="counter-main-div" ref={containerRef}>
       {counterData.map((item, index) => (
         <React.Fragment key={index}>
-          {/* Render div1, div3, div5 for text data */}
           <div className={`counter-child-div div${index * 2 + 1}`}>
             <h1 className="">
               <span ref={(el) => (counterRefs.current[index] = el)}>
                 {item.number}
               </span>
-              +
+              {item.suffix ? item.suffix : "+"}
             </h1>
             <h5>{item.label}</h5>
             <p>{item.description}</p>

@@ -344,6 +344,10 @@
   #blob2 {
     width: 99%;
   }
+  .herosection2 h1{
+    /* font-size: 3rem !important; */
+    font-size: clamp(3.3rem,3vw,3.5rem) !important;
+  }
   #explorebtn,
   #contactbtn {
     width: 12.625rem;
@@ -358,6 +362,9 @@
     left: -50px !important;
 
     /* left: 0px !important; */
+  }
+  .herosection2 h1{
+    /* font-size: 3rem !important; */
   }
   #contact-marquee {
     display: none !important;

@@ -30,57 +30,56 @@ const Services = () => {
       border: "border-top-left",
       number: "02",
       line: "white-line",
-      text: "Data Recovery, Storage Solutions, Disaster Recovery & other Enterprise Solutions",
+      text: "IT hardware and software support",
     }, // Card 2
     {
       type: "glassmorphism-orange",
       number: "03",
       line: "orange-line",
-      text: "Data Recovery, Storage Solutions, Disaster Recovery & other Enterprise Solutions",
+      text: "Cloud services and enterprise server management",
     }, // Card 3
     { type: "transparent", text: "" }, // Card 4
     {
       type: "glassmorphism-white",
       number: "05",
       line: "white-line",
-      text: "Data Recovery, Storage Solutions, Disaster Recovery & other Enterprise Solutions",
+      text: "Structured cabling and infrastructure solutions",
     }, // Card 5
     {
       type: "glassmorphism-white",
       number: "06",
       line: "white-line",
-      text: "Data Recovery, Storage Solutions, Disaster Recovery & other Enterprise Solutions",
+      text: "AV and meeting room solutions",
     }, // Card 6
     {
       type: "glassmorphism-orange",
       number: "07",
       line: "orange-line",
-      text: "Data Recovery, Storage Solutions, Disaster Recovery & other Enterprise Solutions",
+      text: "Data recovery, storage, and cybersecurity",
     }, // Card 7
     { type: "transparent", text: "" }, // Card 8
     {
       type: "glassmorphism-orange",
       number: "09",
       line: "orange-line",
-      text: "Data Recovery, Storage Solutions, Disaster Recovery & other Enterprise Solutions",
+      text: "Microsoft Volume Licensing and cloud solutions",
     }, // Card 9
-    { type: "transparent", text: "",  }, // Card 10
+    { type: "transparent", text: "" }, // Card 10
     { type: "transparent", text: "", laptop: "hidden-on-laptop" }, // Card 11
     {
       type: "glassmorphism-white",
       number: "12",
       line: "white-line",
-      text: "Data Recovery, Storage Solutions, Disaster Recovery & other Enterprise Solutions",
-   
+      text: "Remote and onsite IT support anytime you need",
     }, // Card 12
     {
       type: "orange-bg",
       border: "border-top-right",
       number: "13",
       line: "white-line",
-      text: "Data Recovery, Storage Solutions, Disaster Recovery & other Enterprise Solutions",
+      text: "From everyday support to future-proofing your tech  we help you thrive, not just survive.",
     }, // Card 13
-    { type: "transparent", text: "", laptop: "hidden-on-laptop"  }, // Card 14
+    { type: "transparent", text: "", laptop: "hidden-on-laptop" }, // Card 14
     { type: "transparent", text: "", laptop: "hidden-on-laptop" }, // Card 15
   ];
 
@@ -177,8 +176,8 @@ const Services = () => {
   const renderCards = () => {
     if (windowWidth <= 768) {
       // Filter out transparent cards for mobile view
-      const coloredCards = cards.filter(card => card.type !== "transparent");
-  
+      const coloredCards = cards.filter((card) => card.type !== "transparent");
+
       return (
         <Swiper
           slidesPerView={1}
@@ -238,14 +237,9 @@ const Services = () => {
             <span>do it</span>
           </h1>
           <p>
-            Our IT Solutions and Services are designed to take your business to
-            the next level. With our experience and access to the most recent
-            technologies, we can constantly update your corporate IT Solutions,
-            implement and manage all your IT Infrastructure, Wireless solutions,
-            On Premise Solutions as well as utilize emerging technologies such
-            as Cloud Computing, Storage and other Cloud Solutions. Our Managed
-            IT Services are here to improve your existing IT infrastructure so
-            you can focus on the things that matter.
+            At Silver Star Electronics, our services are designed to evolve with
+            your business needs. Our expert engineers deliver end-to-end IT
+            management
           </p>
         </div>
         <div className="service-cards-section" ref={cardsContainerRef}>

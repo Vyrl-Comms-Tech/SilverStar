@@ -9,79 +9,29 @@ import { Keyboard, Scrollbar } from "swiper/modules";
 
 const clientContent = [
   {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
+    h3: "Silver Star Electronics streamlined our entire IT infrastructure within days. Professional, responsive, and highly efficient.",
+    h4: "- Ahmed R.",
+    p: "Procurement Manager, Al Tayer",
   },
   {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
+    h3: "Fast deliveries, genuine products, and unmatched customer service. They truly handle IT so we can focus on our growth.",
+    h4: "- Sarah",
+    p: "perations Director, Apparel Group",
   },
   {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
+    h3: "We've relied on Silver Star for IT support and product supply for years — they've never let us down",
+    h4: "- Manager",
+    p: "Emirates",
   },
   {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
+    h3: "Our cloud migration was made seamless and cost-effective thanks to Silver Star's experienced team",
+    h4: "- Mujtaba Abdullah",
+    p: "Manager, Vyrl Communications",
   },
   {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
-  },
-  {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
-  },
-  {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
-  },
-  {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
-  },
-  {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
-  },
-  {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
-  },
-  {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
-  },
-  {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
-  },
-  {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
-  },
-  {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
-  },
-  {
-    h3: "SSE team has dedicated and professional staffs that can handle tough and complex scenarios smoothly",
-    h4: "Mr.Murgan ",
-    p: "Project Manager IIS-Al Hathboor Group",
+    h3: "Choosing SSE was one of our best business decisions. Their 24/7 support ensures our operations never stop",
+    h4: "Faisal  Head of IT,",
+    p: "Sunset Group",
   },
 ];
 

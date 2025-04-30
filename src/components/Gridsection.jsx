@@ -78,7 +78,7 @@ export const Gridsection = () => {
         {
           opacity: 1,
           scale: 1,
-          delay:-0.2,
+          delay: -0.2,
           duration: 1,
           ease: "power2.out",
         }
@@ -269,10 +269,9 @@ export const Gridsection = () => {
       <div className="col2">
         <div className="gridbox4">
           <div className="gridbox4text">
-            <h4>Lorem Ispum</h4>
+            <h4>Software licenses</h4>
             <h5>
-              lorem ipsum etc <br />
-              etc
+              (Microsoft, Adobe, VMware, AutoCAD, <br /> and more)
             </h5>
           </div>
           <img src="/img/Frame 121.png" id="rectangleimg" alt="" />
@@ -382,7 +381,6 @@ export const Gridsection = () => {
                 </linearGradient>
               </defs>
             </svg>
-
           </div>
           <div className="grid7box3">
             <h4 id="newh4">

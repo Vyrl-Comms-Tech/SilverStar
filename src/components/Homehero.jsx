@@ -7,7 +7,6 @@ import Heroreel from "./Heroreel";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { useNavigate } from "react-router-dom";
 
-
 export default function Homehero() {
   gsap.registerPlugin(ScrollToPlugin);
   const navigate = useNavigate();
@@ -83,12 +82,11 @@ export default function Homehero() {
       },
     });
   };
-  
 
   const handleScroll = () => {
     // Get the total height of the page minus the viewport height
     const bottomPosition = document.body.scrollHeight - window.innerHeight;
-    
+
     gsap.to(window, {
       scrollTo: {
         y: bottomPosition,
@@ -309,8 +307,9 @@ export default function Homehero() {
           <div className="herosection2">
             <div id="newtext" className="boundingelem">
               <h1>
-                Elevating your Digital World <br className="remhead" /> with
-                <span id="red"> Innovation </span>
+              Empowering Your Business with Innovative 
+                <br className="remhead" /> 
+                <span id="red">IT Solutions  & Supplies in the UAE</span>
               </h1>
               <h4>
                 One-stop destination for all IT & ELECTRONICS leading it
@@ -318,10 +317,12 @@ export default function Homehero() {
               </h4>
             </div>
             <div className="herobuttonholder">
-              <button id="explorebtn" onClick={() => navigate('/about')} >
+              <button id="explorebtn" onClick={() => navigate("/about")}>
                 Explore <img src="/img/Varrow.svg"></img>
               </button>
-              <button id="contactbtn" onClick={() => navigate('/contact-us')}>Contact </button>
+              <button id="contactbtn" onClick={() => navigate("/contact-us")}>
+                Contact{" "}
+              </button>
             </div>
             <img src="/img/group2.png" id="gdownarrow" alt="" />
             <p>
@@ -351,18 +352,8 @@ export default function Homehero() {
             </div>
           </div>
           {/* Blob images with refs for animation */}
-          <img
-            src="/img/Rectangle 2.png"
-            alt=""
-            id="blob1"
-            ref={blob1Ref}
-          />
-          <img
-            src="/img/Rectangle 1.png"
-            alt=""
-            id="blob2"
-            ref={blob2Ref}
-          />
+          <img src="/img/Rectangle 2.png" alt="" id="blob1" ref={blob1Ref} />
+          <img src="/img/Rectangle 1.png" alt="" id="blob2" ref={blob2Ref} />
         </div>
       </div>
     </>
