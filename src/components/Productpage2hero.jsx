@@ -26,13 +26,13 @@ function Productpage2hero() {
     <>
       <div className="homehero">
         {/* Blob images */}
-        <img src="/img/about blob.png" alt="" id="abblob" />
+        <img src="/img/about blob.avif" alt="" id="abblob" />
         <Navbar />
         <div className="mainhero">
           <div className="herosection1">
             <div className="herotextholder"></div>
             <div className="heroimageholder">
-              <img src="/img/product arrow2.png" alt="" />
+              <img src="/img/product arrow2.avif" alt="" />
             </div>
             <div className="bottomrow">
               <div className="scrolldown"  onClick={handleScroll}>
@@ -51,12 +51,12 @@ function Productpage2hero() {
             <div className="herobuttonholder">
               <button id="contactbtn">Contact </button>
             </div>
-            <img src="/img/Group 1a.png" alt="" />
+            <img src="/img/Group 1a.avif" alt="" />
           </div>
           <div className="herosection1" id="hero2">
             <div className="herotextholder" id="herotextholder2"></div>
             <div className="heroimageholder" id="heroimageholder2">
-              <img src="/img/product arrow1.png" alt="" />
+              <img src="/img/product arrow1.avif" alt="" />
             </div>
             <div className="bottomrow" id="bottomrow2"></div>
           </div>

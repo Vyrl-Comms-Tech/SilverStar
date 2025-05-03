@@ -275,7 +275,7 @@ export default function Navbar() {
     <>
       <div className="navbar">
         <a href="/">
-          <img src="/img/Logo.png" alt="" id="navlogo" />
+          <img src="/img/Logo.avif" alt="" id="navlogo" />
         </a>
         <div className="ulholder">
           <ul ref={navRef}>
@@ -295,12 +295,12 @@ export default function Navbar() {
               className="product-tab-container"
             >
               <NavLink to="/products" id="producttab">
-                <li className="oxygen-light-font">Products <img src="/img/dropdown.png" alt="" /></li>
+                <li className="oxygen-light-font">Products </li>
               </NavLink>
-              <div className="dropdown" ref={dropdownRef}>
+              {/* <div className="dropdown" ref={dropdownRef}>
                 <p  onClick={()=>navigate('/products2')}>Business laptop</p>
                 <p onClick={()=>navigate('/products2')}>Apple products</p>
-              </div>
+              </div> */}
             </div>
             <NavLink to="/contact-us">
               <li className="oxygen-light-font">Contact</li>
@@ -326,13 +326,13 @@ export default function Navbar() {
       {/* Phone navbar */}
       <div className="phonemenu" ref={phoneMenuRef}>
         <img
-          src="/img/Rectangle 2.png"
+          src="/img/Rectangle 2.avif"
           alt=""
           id="blob1"
           ref={blob1Ref}
         />
         <img
-          src="/img/Rectangle 1.png"
+          src="/img/Rectangle 1.avif"
           alt=""
           id="blob2"
           ref={blob2Ref}

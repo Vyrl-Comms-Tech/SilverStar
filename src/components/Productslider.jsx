@@ -25,105 +25,105 @@ export default function Productslider() {
 
   const clientContent = [
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",
       cta: "Get this deal"
     },
     {
-      img: "/img/laptop2.png",
+      img: "/img/laptop2.avif",
       title: "HP ELITEBOOK 840",
       subtitle: "HP ELITEBOOK 840 G8",
       stock: "Limited stock",

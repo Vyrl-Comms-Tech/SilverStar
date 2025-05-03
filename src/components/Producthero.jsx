@@ -130,7 +130,7 @@ export default function Abouthero() {
           <div className="homehero">
            
               {/* Blob images */}
-          <img src="/img/about blob.png" alt="" id='abblob' />
+          <img src="/img/about blob.avif" alt="" id='abblob' />
             <Navbar />
             <div className="mainhero">
               <div className="herosection1">
@@ -142,7 +142,7 @@ export default function Abouthero() {
                   </p> */}
                 </div>
                 <div className="heroimageholder" >
-                  <img src="/img/product arrow2.png" alt=""  id="left" />
+                  <img src="/img/product arrow2.avif" alt=""  id="left" />
                 </div>
                 <div className="bottomrow"  id="left">
                   <div className="scrolldown"  onClick={handleScroll}>
@@ -160,7 +160,7 @@ export default function Abouthero() {
                   {/* <button id='explorebtn'>Explore <img src="/img/Varrow.svg"></img></button> */}
                   <button id='contactbtn'>Contact </button>
                 </div>
-                <img src="/img/Group 1a.png"  id="gdownarrow" alt="" />
+                <img src="/img/Group 1a.avif"  id="gdownarrow" alt="" />
                 {/* <p>Corporate IT Hardware & Software Suppliers <br/>From All Major Brands</p> */}
               </div>
               <div className="herosection1" id="hero2">
@@ -172,7 +172,7 @@ export default function Abouthero() {
                   </p> */}
                 </div>
                 <div className="heroimageholder" id='heroimageholder2'>
-                  <img src="/img/product arrow1.png" alt="" id="right"  />
+                  <img src="/img/product arrow1.avif" alt="" id="right"  />
                 </div>
                 <div className="bottomrow" id='bottomrow2'>
                   {/* <div className="showreel">

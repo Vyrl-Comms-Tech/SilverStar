@@ -32,19 +32,19 @@ export default function Productbelowhero() {
 
   const productimages=[
     {
-      img:'/img/Rectangle 40.png',
+      img:'/img/Rectangle 40.avif',
       id:'1'
     },
     {
-      img:'/img/Frame 121.png',
+      img:'/img/Frame 121.avif',
       id:'2'
     },
     {
-      img:'/img/Group 1a.png',
+      img:'/img/Group 1a.avif',
       id:'3'
     },
     {
-      img:'/img/Group 16.png',
+      img:'/img/Group 16.avif',
       id:'4'
     }
   ]

@@ -42,7 +42,7 @@ function Singleproduct({ onClose }) {
     <div className="modal-overlay" ref={modalOverlayRef}>
       <div className="modal-container" ref={modalContainerRef}>
         <div className="modal-image-section">
-          <img src="/img/Rectangle 42.png" alt="" />
+          <img src="/img/Rectangle 42.avif" alt="" />
         </div>
         <div className="modal-content-section">
           <div className="close-button-container">

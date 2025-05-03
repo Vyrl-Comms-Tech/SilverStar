@@ -251,7 +251,7 @@ const Services = () => {
           )}
         </div>
         <div className="service-blob">
-          <img src="/img/service-blob.png" alt="" />
+          <img src="/img/service-blob.avif" alt="" />
         </div>
       </section>
     </>

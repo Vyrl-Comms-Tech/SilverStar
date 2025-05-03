@@ -14,7 +14,7 @@ function Contacthero() {
     <>
       <div className="homehero">
         <Navbar />
-        <img src="/img/About blob2.png" alt="" id="abblob2" />
+        <img src="/img/About blob2.avif" alt="" id="abblob2" />
         {/* <div className="mainhero" id="contact-hero"> */}
           <ContactUsForm />
           {/* <Marquee

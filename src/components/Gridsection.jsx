@@ -242,11 +242,11 @@ export const Gridsection = () => {
               Workstations, All in One & Care packs
             </p>
           </div>
-          <img src="/img/laptop.png" alt="" />
+          <img src="/img/laptop.avif" alt="" />
         </div>
 
         <div className="gridbox2">
-          <img src="/img/Group 6.png" alt="" />
+          <img src="/img/Group 6.avif" alt="" />
           <div className="gridtext">
             <p>
               HP - Laptops, Desktops, Monitors, Printers, Workstations, All in
@@ -256,7 +256,7 @@ export const Gridsection = () => {
         </div>
         <div className="gridbox3">
           <div className="grid3box1">
-            <img src="img/Group 11.png" alt="" />
+            <img src="img/Group 11.avif" alt="" />
           </div>
           <div className="grid3box2">
             <p>
@@ -274,7 +274,7 @@ export const Gridsection = () => {
               (Microsoft, Adobe, VMware, AutoCAD, <br /> and more)
             </h5>
           </div>
-          <img src="/img/Frame 121.png" id="rectangleimg" alt="" />
+          <img src="/img/Frame 121.avif" id="rectangleimg" alt="" />
         </div>
 
         <div className="gridbox5">
@@ -294,13 +294,13 @@ export const Gridsection = () => {
               Apple - iMac, MacBook Laptops, iPhone, iPad, <br /> Workstations &
               Care packs
             </p>
-            <img src="/img/circles.png" alt="" id="circleimg" />
+            <img src="/img/circles.avif" alt="" id="circleimg" />
           </div>
         </div>
       </div>
       <div className="col3">
         <div className="gridbox7">
-          <img src="img/group14.png" alt="" />
+          <img src="img/group14.avif" alt="" />
           <div className="grid7box1">
             <p>HPE</p>
           </div>
@@ -390,7 +390,7 @@ export const Gridsection = () => {
         </div>
         <div className="gridbox8">
           <h3>Download Brochure</h3>
-          <img src="/img/Group 16.png" alt="" />
+          <img src="/img/Group 16.avif" alt="" />
         </div>
       </div>
     </div>

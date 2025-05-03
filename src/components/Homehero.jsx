@@ -293,7 +293,7 @@ export default function Homehero() {
               </p>
             </div>
             <div className="heroimageholder">
-              <img src="/img/arrow1.png" alt="" id="left" />
+              <img src="/img/arrow1.avif" alt="" id="left" />
             </div>
             <div className="bottomrow" id="left">
               <div className="scrolldown" onClick={handleScroll}>
@@ -324,7 +324,7 @@ export default function Homehero() {
                 Contact{" "}
               </button>
             </div>
-            <img src="/img/group2.png" id="gdownarrow" alt="" />
+            <img src="/img/group2.avif" id="gdownarrow" alt="" />
             <p>
               Corporate IT Hardware & Software Suppliers <br />
               From All Major Brands
@@ -339,7 +339,7 @@ export default function Homehero() {
               </p>
             </div>
             <div className="heroimageholder" id="heroimageholder2">
-              <img src="/img/arrow2.png" alt="" id="right" />
+              <img src="/img/arrow2.avif" alt="" id="right" />
             </div>
             <div className="bottomrow" id="bottomrow2">
               <div
@@ -352,8 +352,8 @@ export default function Homehero() {
             </div>
           </div>
           {/* Blob images with refs for animation */}
-          <img src="/img/Rectangle 2.png" alt="" id="blob1" ref={blob1Ref} />
-          <img src="/img/Rectangle 1.png" alt="" id="blob2" ref={blob2Ref} />
+          <img src="/img/Rectangle 2.avif" alt="" id="blob1" ref={blob1Ref} />
+          <img src="/img/Rectangle 1.avif" alt="" id="blob2" ref={blob2Ref} />
         </div>
       </div>
     </>
