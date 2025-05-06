@@ -17,11 +17,11 @@
 .fancy-button::after {
   content: "";
   position: absolute;
-  height: 0.5px; /* h-1 */
-  width: 0.5px; /* w-1 */
+  height: 0.6px; /* h-1 */
+  width: 0.6px; /* w-1 */
   background-color: #e8361e; /* bg-rose-800 */
-  left: 25px; /* left-5 */
-  bottom: 0;
+  left: 25%; /* left-5 */
+  bottom: 5%; /* bottom-2 */;
   border-radius: 0.375rem; /* rounded-md */
   transform: translateY(100%);
   transition: all 0.4s ease-in-out;

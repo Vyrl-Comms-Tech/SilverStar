@@ -94,11 +94,9 @@ export default function ContactUsForm() {
                 </div>
                 <div className="contact-us-address">
                   <span>
-                    Silver Star Electronics LLC, Office #501, The Atrium Center,
-                    Khalid Bin Walid Road, Bur Dubai, Dubai, United Arab
-                    Emirates
+                  Mag WH S03,Unit 103 - Al Quoz Logistics Park - Dubai
                   </span>
-                  <span>PO Box 29364</span>
+                  {/* <span>PO Box 29364</span> */}
                 </div>
               </div>
             </div>

@@ -277,7 +277,7 @@
   width: 0.5px; /* w-1 */
   background-color: #e8361e;
   left: 25px; /* left-5 */
-  bottom: 0;
+  top: 50%;
   border-radius: 0.375rem; /* rounded-md */
   transform: translateY(100%);
   transition: all 0.4s ease-in-out;

@@ -93,12 +93,12 @@ export default function Clients() {
                   <div className="client-card-section2-inner">
                     <div className="client-card-section2-inner-div">
                       {/*  */}
-                      <div className="client-card-section2-inner-img">
+                      {/* <div className="client-card-section2-inner-img">
                         <img
                           src="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg"
                           alt=""
                         />
-                      </div>
+                      </div> */}
                       {/*  */}
                       <div className="client-card-section2-inner-text">
                         <h4>{client.h4}</h4>

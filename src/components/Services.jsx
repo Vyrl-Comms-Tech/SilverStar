@@ -28,39 +28,39 @@ const Services = () => {
     {
       type: "orange-bg",
       border: "border-top-left",
-      number: "02",
+      number: "01",
       line: "white-line",
       text: "IT hardware and software support",
     }, // Card 2
     {
       type: "glassmorphism-orange",
-      number: "03",
+      number: "02",
       line: "orange-line",
       text: "Cloud services and enterprise server management",
     }, // Card 3
     { type: "transparent", text: "" }, // Card 4
     {
       type: "glassmorphism-white",
-      number: "05",
+      number: "03",
       line: "white-line",
       text: "Structured cabling and infrastructure solutions",
     }, // Card 5
     {
       type: "glassmorphism-white",
-      number: "06",
+      number: "04",
       line: "white-line",
       text: "AV and meeting room solutions",
     }, // Card 6
     {
       type: "glassmorphism-orange",
-      number: "07",
+      number: "05",
       line: "orange-line",
       text: "Data recovery, storage, and cybersecurity",
     }, // Card 7
     { type: "transparent", text: "" }, // Card 8
     {
       type: "glassmorphism-orange",
-      number: "09",
+      number: "06",
       line: "orange-line",
       text: "Microsoft Volume Licensing and cloud solutions",
     }, // Card 9
@@ -68,14 +68,14 @@ const Services = () => {
     { type: "transparent", text: "", laptop: "hidden-on-laptop" }, // Card 11
     {
       type: "glassmorphism-white",
-      number: "12",
+      number: "07",
       line: "white-line",
       text: "Remote and onsite IT support anytime you need",
     }, // Card 12
     {
       type: "orange-bg",
       border: "border-top-right",
-      number: "13",
+      number: "08",
       line: "white-line",
       text: "From everyday support to future-proofing your tech  we help you thrive, not just survive.",
     }, // Card 13

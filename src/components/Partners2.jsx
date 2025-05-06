@@ -37,9 +37,9 @@ export default function Partners() {
         <div className="partners-carousel-container">
           <div className="partner-slider-div">
             {/* Left Arrow */}
-            <div className="partners-arrow-left" onClick={handlePrev}>
+            {/* <div className="partners-arrow-left" onClick={handlePrev}>
               <GoArrowLeft size={40} className="arrow" />
-            </div>
+            </div> */}
 
             {/* Image */}
             <img
@@ -48,9 +48,9 @@ export default function Partners() {
             />
 
             {/* Right Arrow */}
-            <div className="partners-arrow-right" onClick={handleNext}>
+            {/* <div className="partners-arrow-right" onClick={handleNext}>
               <GoArrowRight className="arrow" size={40} />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

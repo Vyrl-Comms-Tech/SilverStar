@@ -321,7 +321,7 @@ export default function Homehero() {
                 Explore <img src="/img/Varrow.svg"></img>
               </button>
               <button id="contactbtn" onClick={() => navigate("/contact-us")}>
-                Contact{" "}
+                Contact
               </button>
             </div>
             <img src="/img/group2.avif" id="gdownarrow" alt="" />

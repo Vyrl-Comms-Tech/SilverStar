@@ -111,6 +111,8 @@
   font-size: clamp(14px, 2vw, 17px);
   margin: 0;
   font-weight: 300 !important;
+  position: relative;
+  left:10px;
 }
 
 .client-card-section2-inner-img {

@@ -150,11 +150,11 @@ const Product = ({ isAboutPage = false }) => {
           key={item.id}
           className={`product-glass-div glass-div${index + 1}`}
         >
-          <h3>{item.title}</h3>
-          <p>{item.description}</p>
-          <div className="product-glass-img-div">
+          {/* <h3>{item.title}</h3> */}
+          <p><div className="p-dot"></div>{item.description}</p>
+          {/* <div className="product-glass-img-div">
             <img src="/img/product-arrow.svg" alt="Arrow" />
-          </div>
+          </div> */}
         </div>
       ))}
 

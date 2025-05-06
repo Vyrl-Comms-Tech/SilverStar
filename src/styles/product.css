@@ -75,7 +75,7 @@
 
 /** glass div **/
 .product-glass-div {
-  padding: 30px 35px;
+  padding: 20px 25px;
   background: rgba(255, 255, 255, 0.03);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
@@ -94,11 +94,22 @@
   font-family: oxygen-regular-font;
 }
 
+.p-dot {
+  background-color: #e8361e;
+  width: 8px !important;
+  height: 8px !important;
+  margin-right: 10px !important;
+  border-radius: 50%;
+  /* margin-bottom: 10px; */
+}
+
 .product-glass-div p {
   font-family: var(--lightfont);
   font-weight: 300;
+  display: flex;align-items: center;
+  justify-content: center;
   font-size: clamp(13px, 2vw, 18px);
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   font-family: oxygen-light-font;
 }
 .product-glass-img-div {
@@ -261,11 +272,10 @@
   }
 }
 
-@media (max-width: 1550px)  and (min-width: 992px) {
+@media (max-width: 1550px) and (min-width: 992px) {
   .product-glass-div.glass-div2 {
     position: absolute;
     top: 12%;
     left: 10%;
   }
 }
-
