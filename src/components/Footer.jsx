@@ -36,14 +36,12 @@ const Footer = () => {
               LEAVE IT TO <br /> <span className="highlight">US.</span>
             </h1>
             <div className="footer-description">
-              <a href="mailto:info@ssedubai.com">
-                <button>info@ssedubai.com</button>
-              </a>
+              <a href="mailto:info@ssedubai.com">info@ssedubai.com</a>
               <p>
                 so you can concentrate on growing your <br /> business
               </p>
               <a href="https://api.whatsapp.com/send?phone=971557665761">
-              <button>Call : +971 557665761</button>
+                Call : +971 557665761
               </a>
             </div>
           </div>
