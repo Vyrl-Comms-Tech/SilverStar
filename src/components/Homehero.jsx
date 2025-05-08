@@ -305,7 +305,7 @@ export default function Homehero() {
             </div>
           </div>
           <div className="herosection2">
-            <div id="newtext" className="boundingelem">
+            <div id="newtext sm-hero" className="boundingelem">
               <h1>
               Empowering Your Business with Innovative 
                 <br className="remhead" /> 

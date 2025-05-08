@@ -151,7 +151,7 @@ function Servicehero() {
           </div>
         </div>
         <div className="herosection2">
-          <h1 id="newtext">
+          <h1 id="newtext" className="ab-increasae">
             Know more About <br />
             <span id="red"> Silver Star</span>
           </h1>

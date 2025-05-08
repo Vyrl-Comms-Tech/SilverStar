@@ -46,12 +46,12 @@
   color: #adadad;
   text-align: center;
   /* font-family: Oxygen; */
-  margin-block: 10px;
+  margin-block: 15px;
   font-size: 1.3625rem;
   font-style: normal;
   font-weight: 300;
   line-height: 120%; /* 1.875rem */
-  text-transform: lowercase;
+  text-transform: capitalize;
   font-family: var(--lightfont);
 }
 

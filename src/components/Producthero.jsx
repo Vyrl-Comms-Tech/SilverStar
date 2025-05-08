@@ -154,7 +154,7 @@ export default function Abouthero() {
                 </div>
               </div>
               <div className="herosection2">
-                <h1 id="newtext">Products thats<br/> <span id='red'>do it</span></h1>
+                <h1 id="newtext" className='ab-increasae'>Products thats<br/> <span id='red'>do it</span></h1>
                 {/* <h4>One-stop destination for all IT & ELECTRONICS leading it hardware and software <br/> supplies in dubai</h4> */}
                 <div className="herobuttonholder">
                   {/* <button id='explorebtn'>Explore <img src="/img/Varrow.svg"></img></button> */}

@@ -192,7 +192,7 @@ export default function Abouthero() {
             </div>
           </div>
           <div className="herosection2">
-            <h1 id="newtext" className="boundingelem">
+            <h1 id="ab-increasae" className="boundingelem ab-increasae">
               Know more About <br /><span id="red"> Silver Star</span>
             </h1>
             {/* <h4>One-stop destination for all IT & ELECTRONICS leading it hardware and software <br/> supplies in dubai</h4> */}

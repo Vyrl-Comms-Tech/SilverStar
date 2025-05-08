@@ -156,6 +156,15 @@
 }
 /* Responsive Design */
 
+.vyrl {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: right;
+  right: 15px;
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-family: oxygen-regular-font;
+  cursor: pointer;
+}
+
 @media (max-width: 966px) {
   .footer-description button {
     /* font-size: 20px; */
@@ -268,5 +277,12 @@
     position: absolute;
     top: 100% !important;
     left: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .vyrl {
+    padding-top: 15px;
+    text-align: center;
   }
 }
