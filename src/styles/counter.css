@@ -46,6 +46,7 @@
 .counter-child-div p {
   font-size: clamp(13px, 1.5vw, 15px);
   font-weight: 300 !important;
+  text-transform: capitalize;
   color: #d9d9d9;
 }
 
