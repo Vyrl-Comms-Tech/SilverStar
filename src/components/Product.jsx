@@ -139,7 +139,7 @@ const Product = ({ isAboutPage = false }) => {
           <div className="product-para">
             <p>{item.p}</p>
             {/* <button>{item.button}</button> */}
-            <Button text="About Us" />
+            {/* <Button text="About Us" onClick={() => window.location.href = '/about'} /> */}
           </div>
         </div>
       ))}
