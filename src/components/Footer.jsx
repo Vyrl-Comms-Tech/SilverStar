@@ -78,7 +78,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="copyright">© silver star electronics 2023</div>
+        <div className="copyright">© silver star electronics {new Date().getFullYear()}</div>
 
         <div className="vyrl" onClick={() => window.open('https://vyrl.ae', '_blank')}>
           website by vyrl.ae
