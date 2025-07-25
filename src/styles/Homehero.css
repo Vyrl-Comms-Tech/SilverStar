@@ -88,6 +88,17 @@
   font-weight: 400;
   line-height: 150%; /* 1.40625rem */
 }
+.bottomroww{
+    position: absolute;
+  bottom: 10px;
+  /* border: 2px solid wheat; */
+  /* padding: 0px 30px; */
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
 .bottomrow {
   position: absolute;
   bottom: 0;

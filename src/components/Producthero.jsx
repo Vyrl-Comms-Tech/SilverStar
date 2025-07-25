@@ -144,7 +144,7 @@ export default function Abouthero() {
                 <div className="heroimageholder" >
                   <img src="/img/product arrow2.avif" alt=""  id="left" />
                 </div>
-                <div className="bottomrow"  id="left">
+                <div className="bottomroww"  id="left">
                   <div className="scrolldown"  onClick={handleScroll}>
                     <img src="/img/arowdown.svg" alt="" />
                   </div>
