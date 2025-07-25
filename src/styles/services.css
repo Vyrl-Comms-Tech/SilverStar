@@ -147,7 +147,7 @@ z-index: -1;
 /* Glassmorphism with Orange Text */
 .glassmorphism-orange {
   background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(6px);
   color: #e8361e;
 }
 

@@ -204,7 +204,7 @@ export default function Abouthero() {
             <p>
               Corporate IT Hardware & Software Suppliers
               <br />
-              From All Major Brands
+              From All Major Brands and IT reseller
             </p>
           </div>
           <div className="herosection1" id="hero2">
