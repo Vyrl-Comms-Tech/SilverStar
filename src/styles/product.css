@@ -228,7 +228,7 @@
   .product-para p {
     font-size: clamp(14px, 4vw, 16px);
     margin-bottom: 30px;
-    margin-top: 100px;
+    margin-top: 0px;
     font-weight: 300 !important;
   }
 

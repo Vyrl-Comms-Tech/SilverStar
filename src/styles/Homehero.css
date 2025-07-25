@@ -88,8 +88,8 @@
   font-weight: 400;
   line-height: 150%; /* 1.40625rem */
 }
-.bottomroww{
-    position: absolute;
+.bottomroww {
+  position: absolute;
   bottom: 10px;
   /* border: 2px solid wheat; */
   /* padding: 0px 30px; */
@@ -355,9 +355,9 @@
   #blob2 {
     width: 99%;
   }
-  .herosection2 h1{
+  .herosection2 h1 {
     /* font-size: 3rem !important; */
-    font-size: clamp(3.3rem,3vw,3.5rem) !important;
+    font-size: clamp(3.3rem, 3vw, 3.5rem) !important;
   }
   #explorebtn,
   #contactbtn {
@@ -371,18 +371,18 @@
 @media (max-width: 768px) {
   #left {
     left: -50px !important;
-
-    /* left: 0px !important; */
   }
-  .herosection2 h1{
+  /* #leftt {
+    left: -25px !important;
+  } */
+  .herosection2 h1 {
     /* font-size: 3rem !important; */
   }
   #contact-marquee {
     display: none !important;
   }
-  #newtext h4 br{
+  #newtext h4 br {
     display: none !important;
-
   }
   .herosection1,
   .herosection2 {
@@ -429,11 +429,12 @@
   #explorebtn img {
     height: 12px;
   }
-  .bottomrow {
+  .bottomrow,
+  .bottomroww {
     width: 100%;
     /* width: min-content; */
     left: 0 !important;
-    bottom: -13%;
+    bottom: -5%;
     padding: 0px 20px;
     /* position: relative;
     z-index: 10; */
@@ -452,10 +453,12 @@
     /* position: relative; */
   }
 
-  .bottomrow .scrolldown img {
+  .bottomrow .scrolldown img,
+  .bottomroww .scrolldown img {
     height: 11px;
   }
-  .bottomrow .scrolldown {
+  .bottomrow .scrolldown,
+  .bottomroww .scrolldown {
     padding: 6px 8px;
   }
   .scrolltext p {
@@ -469,7 +472,7 @@
   }
 }
 
-@media (max-width: 1550px)  and (min-width: 992px) {
+@media (max-width: 1550px) and (min-width: 992px) {
   .home-marquee {
     height: 10dvh;
     width: 100%;
@@ -483,7 +486,7 @@
     font-size: 12px;
     /* position: relative; */
   }
-  .mainhero{
+  .mainhero {
     /* border: 2px solid white; */
     height: 75vh;
   }

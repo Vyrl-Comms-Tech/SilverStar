@@ -11,6 +11,7 @@ const Counter = () => {
     {
       number: 29,
       label: "Years",
+      suffix: " ",
       description:
         " of delivering seamless IT solutions across the UAE and MENA region.",
       hasImage: false,
