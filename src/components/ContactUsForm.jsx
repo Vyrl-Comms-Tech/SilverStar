@@ -33,8 +33,8 @@ export default function ContactUsForm() {
               Contact <span className="contact-us-highlight">us</span>
             </h1>
             <p className="contact-us-subtitle">
-              Get IN TOUCH, Leading
-              <span className="contact-us-highlight"> IT <br /> Suppliers in UAE</span>
+              GET IN TOUCH
+              {/* <span className="contact-us-highlight"> IT <br /> Suppliers in UAE</span> */}
             </p>
           </div>
 
@@ -122,7 +122,7 @@ export default function ContactUsForm() {
                       className="contact-us-input"
                       type="tel"
                       name="phone"
-                      placeholder="Phone (+968)"
+                      placeholder="Phone (+971)"
                       value={formData.phone}
                       onChange={handleChange}
                       required
