@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 const Counter = () => {
   const counterData = [
     {
-      number: 28,
+      number: 29,
       label: "Years",
       description:
         " of delivering seamless IT solutions across the UAE and MENA region.",

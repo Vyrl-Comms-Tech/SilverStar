@@ -234,7 +234,7 @@ const Services = () => {
         <div className="service-section-heading">
           <h1>
             Services that <br />
-            <span>do it</span>
+            <span>do IT</span>
           </h1>
           <p>
             At Silver Star Electronics, our services are designed to evolve with

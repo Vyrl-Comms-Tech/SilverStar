@@ -26,7 +26,7 @@ export default function Partners() {
       <div className="partners-content">
         <div className="partners-info">
           <h1 className="partners-title">
-            <span>Partners</span> we share it <br /> with
+            <span>Partners</span> we share IT <br /> with
           </h1>
           <p className="partners-description1">
             We are proud to partner with these businesses. By supporting each

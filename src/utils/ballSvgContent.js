@@ -2,7 +2,7 @@ const productBallData = [
   {
     id: 1,
     span: "Products",
-    h1: "That Do It",
+    h1: "That Do IT",
     p: "We are your one-stop shop for world-class IT hardware, software, and enterprise solutions. Our customers' growth is aided by us being a leading IT reseller in Dubai for all your IT needs, which also covers electronics resale for all major global brands, including HPE, HP, Dell, Lenovo, Cisco, Microsoft Software Licenses, Microsoft Surface, Apple, Adobe, Poly, Logitech, VMWare, Samsung, LG, and many others.",
     button: "About us",
   },

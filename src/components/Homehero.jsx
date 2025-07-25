@@ -307,13 +307,13 @@ export default function Homehero() {
           <div className="herosection2">
             <div id="newtext sm-hero" className="boundingelem">
               <h1>
-              Empowering Your Business with Innovative 
-                <br className="remhead" /> 
+                Empowering Your Business with Innovative
+                <br className="remhead" />
                 <span id="red">IT Solutions  & Supplies in the UAE</span>
               </h1>
               <h4>
-                One-stop destination for all IT & ELECTRONICS leading it
-                hardware and software <br /> supplies in dubai
+                One-stop destination for all IT & ELECTRONICS <br />leading IT
+                hardware and software supplies in dubai
               </h4>
             </div>
             <div className="herobuttonholder">

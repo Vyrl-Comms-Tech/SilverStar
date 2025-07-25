@@ -174,7 +174,7 @@
 
 .product-last-section h4 {
   color: #e8361e;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   font-size: clamp(15px, 2vw, 18px);
   margin-bottom: 5px;
   font-weight: 300;

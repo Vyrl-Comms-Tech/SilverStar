@@ -40,7 +40,7 @@ export default function Clients() {
     <div className="clients-main-div">
       <div className="clients-main-heading">
         <h1>
-          Clients <br /> <span>that do it</span>
+          Clients <br /> <span>that do IT</span>
         </h1>
       </div>
       <div className="clients-blob">

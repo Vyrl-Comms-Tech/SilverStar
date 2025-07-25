@@ -152,7 +152,7 @@ function Servicehero() {
         </div>
         <div className="herosection2">
           <h1 id="newtext" className="ab-increasae">
-            Know more About <br />
+            Know More About <br />
             <span id="red"> Silver Star</span>
           </h1>
           {/* <h4>One-stop destination for all IT & ELECTRONICS leading it hardware and software <br/> supplies in dubai</h4> */}
