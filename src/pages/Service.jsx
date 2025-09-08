@@ -10,7 +10,6 @@ import Pagetransition from '../components/Pagetransition'
 const Service = () => {
   return (
    <>
-   
    <Pagetransition/>
    <Servicehero/>
    {/* <Marquee images={secondSetOfImages} direction="left" /> */}
@@ -20,8 +19,6 @@ const Service = () => {
    <ServiceServices/>
    <Services/>
    <Footer/>
-   
-   
    </>
   )
 }

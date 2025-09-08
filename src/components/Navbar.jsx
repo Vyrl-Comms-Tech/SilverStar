@@ -150,66 +150,68 @@ export default function Navbar() {
     const navItems = navRef.current?.querySelectorAll("li");
     if (!navItems) return; // Add safety check
 
-    if (showPreloader) {
-      let tl = gsap.timeline({
-        delay: 8,
-      });
+    // if (showPreloader) {
+    //   let tl = gsap.timeline({
+    //     delay: 8,
+    //   });
 
-      // Ensure elements exist before animating
-      if (navItems.length > 0) {
-        tl.fromTo(
-          navItems,
-          {
-            y: 35,
-            opacity: 0,
-          },
-          {
-            y: 0,
-            opacity: 1,
-            duration: 0.3,
-            stagger: 0.15,
-            ease: "power2.out",
-          },
-          "same"
-        );
-      }
+    //   // Ensure elements exist before animating
+    //   if (navItems.length > 0) {
+    //     tl.fromTo(
+    //       navItems,
+    //       {
+    //         y: 35,
+    //         opacity: 0,
+    //       },
+    //       {
+    //         y: 0,
+    //         opacity: 1,
+    //         duration: 0.3,
+    //         stagger: 0.15,
+    //         ease: "power2.out",
+    //       },
+    //       "same"
+    //     );
+    //   }
 
-      const navBtn = document.querySelector(".h-contact");
-      if (navBtn) {
-        tl.fromTo(
-          navBtn,
-          {
-            y: 35,
-            opacity: 0,
-          },
-          {
-            y: 0,
-            opacity: 1,
-            duration: 0.6,
-            ease: "power2.out",
-          },
-          "same"
-        );
-      }
+    //   const navBtn = document.querySelector(".h-contact");
+    //   if (navBtn) {
+    //     tl.fromTo(
+    //       navBtn,
+    //       {
+    //         y: 35,
+    //         opacity: 0,
+    //       },
+    //       {
+    //         y: 0,
+    //         opacity: 1,
+    //         duration: 0.6,
+    //         ease: "power2.out",
+    //       },
+    //       "same"
+    //     );
+    //   }
 
-      const navLogo = document.querySelector("#navlogo");
-      if (navLogo) {
-        tl.fromTo(
-          navLogo,
-          {
-            opacity: 0,
-            scale: 0,
-          },
-          {
-            opacity: 1,
-            scale: 1,
-            duration: 1.2,
-            ease: "power2.out",
-          },
-          "same"
-        );
-      }
-    } else {
+    //   const navLogo = document.querySelector("#navlogo");
+    //   if (navLogo) {
+    //     tl.fromTo(
+    //       navLogo,
+    //       {
+    //         opacity: 0,
+    //         scale: 0,
+    //       },
+    //       {
+    //         opacity: 1,
+    //         scale: 1,
+    //         duration: 1.2,
+    //         ease: "power2.out",
+    //       },
+    //       "same"
+    //     );
+    //   }
+    // } 
+    
+    // else {
       let tl = gsap.timeline({
         delay: 1.5,
       });
@@ -261,7 +263,7 @@ export default function Navbar() {
         },
         "same"
       );
-    }
+    // }
 
     // Start the blob animations
     if (blob1Ref.current) {
@@ -278,7 +280,7 @@ export default function Navbar() {
       gsap.killTweensOf(blob2Ref.current);
       gsap.killTweensOf(dropdownRef.current);
     };
-  }, [showPreloader]); // Add showPreloader as dependency
+  }, []); // Add showPreloader as dependency
 
   return (
     <>
@@ -294,8 +296,8 @@ export default function Navbar() {
             <NavLink to="/about">
               <li className="oxygen-light-font">About</li>
             </NavLink>
-            <NavLink to="/services">
-              <li className="oxygen-light-font">Services</li>
+            <NavLink to="/products">
+              <li className="oxygen-light-font">Products</li>
             </NavLink>
             <div
               ref={productTabRef}
@@ -303,8 +305,8 @@ export default function Navbar() {
               onMouseLeave={handleProductTabLeave}
               className="product-tab-container"
             >
-              <NavLink to="/products" id="producttab">
-                <li className="oxygen-light-font">Products </li>
+              <NavLink to="/services" id="producttab">
+                <li className="oxygen-light-font">Services </li>
               </NavLink>
               {/* <div className="dropdown" ref={dropdownRef}>
                 <p  onClick={()=>navigate('/products2')}>Business laptop</p>

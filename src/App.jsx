@@ -56,12 +56,12 @@ function App() {
   }, [location.pathname]);
   return (
     <>
-      <Preloader />
+      {/* <Preloader /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/products" element={<Product />} />
-        <Route path="/services" element={<Service />} />
+        <Route path="/services" element={<Product />} />
+        <Route path="/products" element={<Service />} />
         <Route path="/products2" element={<Productpage2 />} />
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>

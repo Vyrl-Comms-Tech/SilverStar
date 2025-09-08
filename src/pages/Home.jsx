@@ -32,7 +32,7 @@ export default function Home() {
   
   return (
     <>
-      {preloaderAlreadyShown && <Pagetransition />}
+      {/* {preloaderAlreadyShown && <Pagetransition />} */}
       
       <Homehero />
       <div className="home-marquee"></div>

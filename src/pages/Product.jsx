@@ -7,15 +7,17 @@ import Productslider from "../components/Productslider";
 import { secondSetOfImages } from "../utils/marqueeImageSets";
 import Footer from "../components/Footer";
 import Pagetransition from "../components/Pagetransition";
+import AboutSection from "../components/AboutUs";
 export default function Product() {
   return (
     <>
-    
-    <Pagetransition/>
+
+      <Pagetransition />
       <Producthero />
       <Marquee images={secondSetOfImages} height="150px" width="150px" />
       <Productbelowhero />
-      <Gridsection/>
+      <AboutSection />
+      <Gridsection />
       <Productslider />
       <Footer />
     </>
