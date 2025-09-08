@@ -15,7 +15,7 @@
   /* rotate: 0deg; */
   /* border: 2px solid #e8361e; */
   position: absolute;
-z-index: -1;
+  z-index: -1;
 }
 .service-blob img {
   width: 100%;
@@ -281,8 +281,6 @@ z-index: -1;
     display: none; /* Hide background text on mobile */
   }
 
-
-
   /* Ensure the orange card gets proper styling */
   .orange-bg {
     display: block !important;
@@ -309,4 +307,16 @@ z-index: -1;
   .service-card {
     min-height: 220px;
   }
+}
+
+.add {
+  display: block;
+  /* background-color: green;     
+  
+  
+   */
+}
+
+.remove{
+  display: none;
 }

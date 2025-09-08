@@ -52,12 +52,15 @@ const Services = () => {
       text: "AV and meeting room solutions",
     }, // Card 6
     {
+      add:"add"
+    },
+    {
       type: "glassmorphism-orange",
       number: "05",
       line: "orange-line",
       text: "Data recovery, storage, and cybersecurity",
     }, // Card 7
-    { type: "transparent", text: "" }, // Card 8
+    { type: "transparent", text: "", remove: "remove" }, // Card 8
     {
       type: "glassmorphism-orange",
       number: "06",
@@ -198,9 +201,8 @@ const Services = () => {
           {coloredCards.map((card, index) => (
             <SwiperSlide key={index}>
               <div
-                className={`service-card ${card.type} ${card.border || ""} ${
-                  card.laptop || ""
-                }`}
+                className={`service-card ${card.type} ${card.border || ""} ${card.laptop || ""
+                  }`}
                 ref={(el) => setCardRef(el, index)}
               >
                 <h1>{card.number}</h1>
@@ -216,9 +218,8 @@ const Services = () => {
     return cards.map((card, index) => (
       <div
         key={index}
-        className={`service-card ${card.type} ${card.border || ""} ${
-          card.laptop || ""
-        }`}
+        className={`service-card ${card.type} ${card.border || ""} ${card.remove || ""} ${card.add} ${card.laptop || ""
+          }`}
         ref={(el) => setCardRef(el, index)}
       >
         <h1>{card.number}</h1>
