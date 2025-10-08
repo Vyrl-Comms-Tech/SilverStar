@@ -37,9 +37,20 @@ const Footer = () => {
             </h1>
             <div className="footer-description">
               <a href="mailto:info@ssedubai.com">info@ssedubai.com</a>
+              <div className="div">
               <p>
                 so you can concentrate on growing your <br /> business
               </p>
+              <div className="footer-menu-linkss">
+               <p>home</p>
+               <p>about</p>
+               <p>services</p>
+               <p>offerings</p>
+               <p>careers</p>
+               {/* <p>home</p> */}
+              </div>
+              </div>
+
               <a href="https://api.whatsapp.com/send?phone=971557665761">
                 Call : +971 557665761
               </a>
