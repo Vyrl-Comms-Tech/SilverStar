@@ -11,6 +11,7 @@ import Preloader from "./components/Preloader";
 import Singleproduct from "./components/Singleproduct";
 import Lenis from "lenis";
 import { useGSAP } from "@gsap/react";
+import Careers from "./pages/Careers";
 function App() {
   const location = useLocation();
   const lenisRef = useRef(null);
@@ -60,10 +61,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Product />} />
-        <Route path="/products" element={<Service />} />
+        <Route path="/offerings" element={<Product />} />
+        <Route path="/services" element={<Service />} />
         <Route path="/products2" element={<Productpage2 />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/careers" element={<Careers />} />
       </Routes>
       {/* <Singleproduct/> */}
     </>

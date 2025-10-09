@@ -112,7 +112,7 @@
   margin: 0;
   font-weight: 300 !important;
   position: relative;
-  left:10px;
+  /* left:10px; */
 }
 
 .client-card-section2-inner-img {

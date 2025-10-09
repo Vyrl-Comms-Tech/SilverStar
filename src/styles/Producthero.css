@@ -19,3 +19,8 @@
     white-space: wrap !important;
   }
 }
+
+.offerings-h1 #newtext{
+  /* border: 1px solid red; */
+  margin-bottom: 0px;
+}

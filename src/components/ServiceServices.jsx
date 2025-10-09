@@ -39,7 +39,7 @@ const ServiceServices = () => {
               <span>our service</span> are designed to take your business to
               next level
             </h1>
-           <Button text="Products" />
+            <Button text="Products" />
           </div>
           <div className="service-services-section1-img">
             <img src="/img/service-img1.svg" alt="Laptop display" />
@@ -71,12 +71,19 @@ const ServiceServices = () => {
               <img src="/img/service-img1.svg" alt="Laptop display" />
             </div>
             <div className="service-services-section3-para">
-              <p>
+              {/* <p>
                 With our experience and access to the most recent technologies,
                 we can constantly update your business IT Solutions, implement
                 and manage all your IT Infrastructure , Wireless solutions, On
                 Premise Solutions as well as utilise emerging technologies such
                 as Cloud Computing, Storage and other Cloud Solutions.
+              </p> */}
+              <p>
+                We combine technology, expertise, and support to help
+                organizations build and maintain reliable IT ecosystems.
+                <br />
+                Whether it’s optimizing infrastructure, managing endpoints, or
+                fortifying cybersecurity we make IT simple, scalable, and secure
               </p>
             </div>
           </div>

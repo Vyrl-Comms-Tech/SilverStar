@@ -209,14 +209,32 @@ export default function Navbar() {
     //       "same"
     //     );
     //   }
-    // } 
-    
+    // }
+
     // else {
-      let tl = gsap.timeline({
-        delay: 1.5,
-      });
+    let tl = gsap.timeline({
+      delay: 1.5,
+    });
+    tl.fromTo(
+      navItems,
+      {
+        y: 35,
+        opacity: 0,
+      },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.3,
+        stagger: 0.15,
+        ease: "power2.out",
+      },
+      "same"
+    );
+
+    const navBtn = document.querySelector(".h-contact");
+    if (navBtn) {
       tl.fromTo(
-        navItems,
+        navBtn,
         {
           y: 35,
           opacity: 0,
@@ -224,45 +242,27 @@ export default function Navbar() {
         {
           y: 0,
           opacity: 1,
-          duration: 0.3,
-          stagger: 0.15,
+          duration: 0.6,
           ease: "power2.out",
         },
         "same"
       );
+    }
 
-      const navBtn = document.querySelector(".h-contact");
-      if (navBtn) {
-        tl.fromTo(
-          navBtn,
-          {
-            y: 35,
-            opacity: 0,
-          },
-          {
-            y: 0,
-            opacity: 1,
-            duration: 0.6,
-            ease: "power2.out",
-          },
-          "same"
-        );
-      }
-
-      tl.fromTo(
-        "#navlogo",
-        {
-          opacity: 0,
-          scale: 0,
-        },
-        {
-          opacity: 1,
-          scale: 1,
-          duration: 1.2,
-          ease: "power2.out",
-        },
-        "same"
-      );
+    tl.fromTo(
+      "#navlogo",
+      {
+        opacity: 0,
+        scale: 0,
+      },
+      {
+        opacity: 1,
+        scale: 1,
+        duration: 1.2,
+        ease: "power2.out",
+      },
+      "same"
+    );
     // }
 
     // Start the blob animations
@@ -296,36 +296,40 @@ export default function Navbar() {
             <NavLink to="/about">
               <li className="oxygen-light-font">About</li>
             </NavLink>
-            <NavLink to="/products">
-              <li className="oxygen-light-font">Products</li>
+            <NavLink to="/services">
+              <li className="oxygen-light-font">Services</li>
             </NavLink>
+
             <div
               ref={productTabRef}
               onMouseEnter={handleProductTabEnter}
               onMouseLeave={handleProductTabLeave}
               className="product-tab-container"
             >
-              <NavLink to="/services" id="producttab">
-                <li className="oxygen-light-font">Services </li>
+              <NavLink to="/offerings" id="producttab">
+                <li className="oxygen-light-font">Offerings</li>
               </NavLink>
               {/* <div className="dropdown" ref={dropdownRef}>
                 <p  onClick={()=>navigate('/products2')}>Business laptop</p>
                 <p onClick={()=>navigate('/products2')}>Apple products</p>
               </div> */}
             </div>
+            <NavLink to="/careers">
+              <li className="oxygen-light-font">Careers</li>
+            </NavLink>
             {/* <li className="oxygen-light-font">Contact</li> */}
           </ul>
           {/* <button >Let's Talk</button> */}
           {/* <NavLink to="/contact-us"> */}
-            
-            <a href="/contact-us" className="h-contact">
+
+          <a href="/contact-us" className="h-contact">
             <Button
               id="navbtn"
               onClick={() => navigate("/contact-us")}
               text="Let's talk"
               className="fancy-button"
-              />
-              </a>
+            />
+          </a>
 
           {/* </NavLink> */}
           {/* Hamburger Menu */}
@@ -356,8 +360,11 @@ export default function Navbar() {
           <NavLink to="/services" onClick={toggleMobileMenu}>
             <h1>Services</h1>
           </NavLink>
-          <NavLink to="/products" onClick={toggleMobileMenu}>
-            <h1>Products</h1>
+          <NavLink to="/offerings" onClick={toggleMobileMenu}>
+            <h1>Offerings</h1>
+          </NavLink>
+          <NavLink to="/careers" onClick={toggleMobileMenu}>
+            <h1>Careers</h1>
           </NavLink>
           <NavLink to="/contact-us" onClick={toggleMobileMenu}>
             <h1>Contact</h1>

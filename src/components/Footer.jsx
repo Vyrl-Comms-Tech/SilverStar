@@ -5,8 +5,11 @@ import AnimatedSVG from "./AnimatedSVG";
 import { useGSAP } from "@gsap/react";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import gsap from "gsap";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
   gsap.registerPlugin(ScrollTrigger);
   useGSAP(() => {
     gsap.to(".footer-ball-svg", {
@@ -38,17 +41,16 @@ const Footer = () => {
             <div className="footer-description">
               <a href="mailto:info@ssedubai.com">info@ssedubai.com</a>
               <div className="div">
-              <p>
-                so you can concentrate on growing your <br /> business
-              </p>
-              <div className="footer-menu-linkss">
-               <p>home</p>
-               <p>about</p>
-               <p>services</p>
-               <p>offerings</p>
-               <p>careers</p>
-               {/* <p>home</p> */}
-              </div>
+                <p>
+                  so you can concentrate on growing your <br /> business
+                </p>
+                <div className="footer-menu-linkss">
+                  <p onClick={() => navigate("/")}>Home</p>
+                  <p onClick={() => navigate("/about")}>About</p>
+                  <p onClick={() => navigate("/services")}>Services</p>
+                  <p onClick={() => navigate("/offerings")}>Offerings</p>
+                  <p onClick={() => navigate("/careers")}>Careers</p>
+                </div>
               </div>
 
               <a href="https://api.whatsapp.com/send?phone=971557665761">
@@ -89,9 +91,14 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="copyright">© silver star electronics {new Date().getFullYear()}</div>
+        <div className="copyright">
+          © silver star electronics {new Date().getFullYear()}
+        </div>
 
-        <div className="vyrl" onClick={() => window.open('https://vyrl.ae', '_blank')}>
+        <div
+          className="vyrl"
+          onClick={() => window.open("https://vyrl.ae", "_blank")}
+        >
           website by vyrl.ae
         </div>
       </div>

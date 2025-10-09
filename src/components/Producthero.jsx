@@ -1,17 +1,17 @@
-import React from 'react'
+import React from "react";
 import "../styles/Homehero.css";
 import "../styles/Producthero.css";
 import Navbar from "./Navbar";
 
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 export default function Abouthero() {
-  gsap.registerPlugin(ScrollToPlugin)
+  gsap.registerPlugin(ScrollToPlugin);
   const handleScroll = () => {
     // Get the total height of the page minus the viewport height
     const bottomPosition = document.body.scrollHeight - window.innerHeight;
-    
+
     gsap.to(window, {
       scrollTo: {
         y: bottomPosition,
@@ -27,7 +27,7 @@ export default function Abouthero() {
     // const animationDelay = showPreloader ? 8 : 1.5;
 
     // Create a timeline with the appropriate delay
-    const tl = gsap.timeline({delay:0.6});
+    const tl = gsap.timeline({ delay: 0.6 });
 
     // Hide elements initially
     gsap.set(".boundingelem", {
@@ -124,66 +124,76 @@ export default function Abouthero() {
   }, []); // Include showPreloader in dependencies to re-run when it changes
 
   return (
-
     <>
-    
-          <div className="homehero">
-           
-              {/* Blob images */}
-          <img src="/img/about blob.avif" alt="" id='abblob' />
-            <Navbar />
-            <div className="mainhero">
-              <div className="herosection1">
-                <div className="herotextholder">
-                  {/* <img src="/img/Ellipse.svg" alt="" /> */}
-                  {/* <p>
+      <div className="homehero">
+        {/* Blob images */}
+        <img src="/img/about blob.avif" alt="" id="abblob" />
+        <Navbar />
+        <div className="mainhero">
+          <div className="herosection1">
+            <div className="herotextholder">
+              {/* <img src="/img/Ellipse.svg" alt="" /> */}
+              {/* <p>
                     Server, Cloud Management,
                     <br /> Network Solutions
                   </p> */}
-                </div>
-                <div className="heroimageholder" >
-                  <img src="/img/product arrow2.avif" alt=""  id="left" />
-                </div>
-                <div className="bottomroww"  id="left">
-                  <div className="scrolldown"  onClick={handleScroll}>
-                    <img src="/img/arowdown.svg" alt="" />
-                  </div>
-                  <div className="scrolltext"  onClick={handleScroll}>
-                    <p>scroll down for more</p>
-                  </div>
-                </div>
+            </div>
+            <div className="heroimageholder">
+              <img src="/img/product arrow2.avif" alt="" id="left" />
+            </div>
+            <div className="bottomroww" id="left">
+              <div className="scrolldown" onClick={handleScroll}>
+                <img src="/img/arowdown.svg" alt="" />
               </div>
-              <div className="herosection2">
-                <h1 id="newtext" className='ab-increasae'>Products Thats<br/> <span id='red'>Do IT</span></h1>
-                {/* <h4>One-stop destination for all IT & ELECTRONICS leading it hardware and software <br/> supplies in dubai</h4> */}
-                <div className="herobuttonholder">
-                  {/* <button id='explorebtn'>Explore <img src="/img/Varrow.svg"></img></button> */}
-                  <button id='contactbtn'>Contact </button>
-                </div>
-                <img src="/img/Group 1a.avif"  id="gdownarrow" alt="" />
-                {/* <p>Corporate IT Hardware & Software Suppliers <br/>From All Major Brands</p> */}
+              <div className="scrolltext" onClick={handleScroll}>
+                <p>scroll down for more</p>
               </div>
-              <div className="herosection1" id="hero2">
-                <div className="herotextholder" id="herotextholder2" >
-                  {/* <img src="/img/Ellipse.svg" alt="" />
+            </div>
+          </div>
+          <div className="herosection2 offerings-h1">
+            <h1 id="newtext" className="ab-increasae">
+              Powering IT with <br /> the Right{" "}
+              <span id="red" className="span-span">
+                Products
+              </span>
+            </h1>
+            <h4>
+              From devices to data centers, we bring you cutting edge technology
+              <br id="remove-brrr" />
+              from the world’s top brands so your business runs faster,
+              <br id="remove-brrr" />
+              smarter, and stronger.
+            </h4>
+
+            {/* <h1 id="newtext" className='ab-increasae'>Products Thats<br/> <span id='red'>Do IT</span></h1> */}
+            {/* <h4>One-stop destination for all IT & ELECTRONICS leading it hardware and software <br/> supplies in dubai</h4> */}
+            <div className="herobuttonholder">
+              {/* <button id='explorebtn'>Explore <img src="/img/Varrow.svg"></img></button> */}
+              <button id="contactbtn">Explore Our Products</button>
+            </div>
+            <img src="/img/Group 1a.avif" id="gdownarrow" alt="" />
+            {/* <p>Corporate IT Hardware & Software Suppliers <br/>From All Major Brands</p> */}
+          </div>
+          <div className="herosection1" id="hero2">
+            <div className="herotextholder" id="herotextholder2">
+              {/* <img src="/img/Ellipse.svg" alt="" />
                   <p>
                   Maintenance, Security & 
                     <br /> CCTV Installation
                   </p> */}
-                </div>
-                <div className="heroimageholder" id='heroimageholder2'>
-                  <img src="/img/product arrow1.avif" alt="" id="right"  />
-                </div>
-                <div className="bottomrow" id='bottomrow2'>
-                  {/* <div className="showreel">
+            </div>
+            <div className="heroimageholder" id="heroimageholder2">
+              <img src="/img/product arrow1.avif" alt="" id="right" />
+            </div>
+            <div className="bottomrow" id="bottomrow2">
+              {/* <div className="showreel">
                     <img src="/img/reel.svg" alt="" />
                     <p>Show reel</p>
                   </div> */}
-                </div>
-              </div>
             </div>
           </div>
-    
+        </div>
+      </div>
     </>
-  )
+  );
 }

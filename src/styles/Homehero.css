@@ -51,7 +51,7 @@
   font-style: normal;
   font-weight: 300;
   line-height: 120%; /* 1.875rem */
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-family: var(--lightfont);
 }
 
@@ -346,6 +346,12 @@
   /* cursor: pointer; */
 }
 
+@media (max-width: 1550px) {
+  .herosection2 {
+    /* border: 1px solid white; */
+    margin-top: 50px;
+  }
+}
 @media (max-width: 992px) {
   .herotextholder,
   .heroimageholder {
@@ -369,6 +375,10 @@
 }
 
 @media (max-width: 768px) {
+  #remove-brrr {
+    display: none;
+  }
+
   #left {
     left: -50px !important;
   }
@@ -405,13 +415,13 @@
   }
   #explorebtn,
   #contactbtn {
-    width: 17.625rem;
-    height: 4.9rem;
-    padding: 0.5rem 1.0625rem;
-    font-size: 1.7rem;
+    /* width: 17.625rem; */
+    /* height: 4.9rem; */
+    /* padding: 0.5rem 1.0625rem; */
+    /* font-size: 1.7rem; */
   }
   .herosection2 h1 {
-    font-size: 7.5vw;
+    font-size: 7.5vw !important;
   }
   .herosection2 h4 {
     font-size: 2.2rem;
@@ -490,4 +500,32 @@
     /* border: 2px solid white; */
     height: 75vh;
   }
+}
+
+@media (max-width: 550px) {
+  .herosection2 h4 {
+    min-width: 350px;
+    /* border: 1px solid red; */
+    /* max-width: 450px !important; */
+  }
+}
+
+.explore-opportunities-btn {
+  width: min-content !important;
+  padding-inline: 10px;
+}
+
+.span-span {
+  /* border: 1px solid red; */
+  display: inline;
+}
+.offerings-h1 h1 {
+  display: inline-block !important;
+  /* border: 1px solid green; */
+}
+
+.offerings-h1 #contactbtn,
+.service-hero-btn {
+  width: min-content !important;
+  padding-inline: 8px !important;
 }

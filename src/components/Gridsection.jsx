@@ -236,33 +236,46 @@ export const Gridsection = () => {
     <div className="gridsection">
       <div className="col1">
         <div className="gridbox1">
-          <div className="gridtext">
-            <p>
-              Lenovo and Dell - Laptops, PC, Monitors, Servers, Storage,
-              Workstations, All in One & Care packs
-            </p>
+          <div className="gridbox4text">
+            <h4>Business Laptops & Desktops</h4>
+            <h5>
+              Power up your workforce with performance driven laptops and
+              desktops from leading brands like Dell, HP, and Lenovo built for
+              reliability, speed, and long hours of productivity.
+            </h5>
           </div>
           <img src="/img/laptop.avif" alt="" />
         </div>
 
         <div className="gridbox2">
           <img src="/img/Group 6.avif" alt="" />
-          <div className="gridtext">
-            <p>
-              HP - Laptops, Desktops, Monitors, Printers, Workstations, All in
-              One, Care packs & Consumables
-            </p>
+          <div className="gridtext-4-text">
+            <h4>Servers & Storage Solutions</h4>
+            <h5>
+              Keep your operations running at full capacity with scalable,
+              secure, and high-performance servers and storage solutions
+              tailored to your business needs.
+            </h5>
           </div>
         </div>
         <div className="gridbox3">
           <div className="grid3box1">
             <img src="img/Group 11.avif" alt="" />
           </div>
-          <div className="grid3box2">
+          {/* <div className="grid3box2">
             <p>
-              Microsoft Licenses & Cloud Packages - Enterprise, SMB, Government,
-              Educational, NPO
+              Connect IT all routers, switches, and access points that ensure
+              seamless communication, high speed connectivity, and rock solid
+              performance across your organization.
             </p>
+          </div> */}
+          <div className="gridtext-4-text">
+            <h4>Servers & Storage Solutions</h4>
+            <h5>
+              Keep your operations running at full capacity with scalable,
+              secure, and high-performance servers and storage solutions
+              tailored to your business needs.
+            </h5>
           </div>
         </div>
       </div>
@@ -271,7 +284,9 @@ export const Gridsection = () => {
           <div className="gridbox4text">
             <h4>Software licenses</h4>
             <h5>
-              (Microsoft, Adobe, VMware, AutoCAD, <br /> and more)
+              Simplify your digital ecosystem with genuine, fully licensed
+              software from Microsoft, Adobe, and other global leaders delivered
+              with expert setup and support.
             </h5>
           </div>
           <img src="/img/Frame 121.avif" id="rectangleimg" alt="" />
@@ -281,19 +296,30 @@ export const Gridsection = () => {
           {/* Add a gradient overlay div for enhanced glow effect */}
           <div className="glow-overlay"></div>
           <div className="grid5box">
-            <h1>Cisco</h1>
+            <h1>Cybersecurity Solutions</h1>
             <h5>
-              Cisco - Switches, Access points, Routers, Firewall. Telephony &
-              Video Conferencing, Software Support Licensing
+              Protect IT like never before. We provide firewalls, antivirus
+              systems, and endpoint protection powered by Fortinet, CrowdStrike,
+              and industry leaders.
             </h5>
           </div>
         </div>
         <div className="gridbox6">
-          <div className="grid6box">
+          {/* <div className="grid6box">
             <p>
-              Apple - iMac, MacBook Laptops, iPhone, iPad, <br /> Workstations &
-              Care packs
+              Enhance office efficiency with high quality printers, scanners,
+              and UPS systems designed for consistent performance and low
+              maintenance.
             </p>
+            <img src="/img/circles.avif" alt="" id="circleimg" />
+            </div> */}
+          <div className="gridbox4text">
+            <h4>Printers, Peripherals & Power Solutions</h4>
+            <h5>
+              Enhance office efficiency with high-quality printers, scanners,
+              and UPS systems designed for consistent performance and low
+              maintenance.
+            </h5>
             <img src="/img/circles.avif" alt="" id="circleimg" />
           </div>
         </div>
@@ -302,7 +328,7 @@ export const Gridsection = () => {
         <div className="gridbox7">
           <img src="img/group14.avif" alt="" />
           <div className="grid7box1">
-            <p>HPE</p>
+            <p>Smart Office & Collaboration Tools</p>
           </div>
           <div className="grid7box2">
             <svg
@@ -384,7 +410,9 @@ export const Gridsection = () => {
           </div>
           <div className="grid7box3">
             <h4 id="newh4">
-              HPE - Servers, Storage, Switches, Support Licenses & Care packs
+              Modernize your workspace with conferencing systems, cloud
+              collaboration tools, and digital displays that make teamwork
+              effortless wherever you are.
             </h4>
           </div>
         </div>

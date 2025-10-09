@@ -73,7 +73,6 @@
   gap: 1.5rem;
   margin-top: 15px;
   /* border: 2px solid green; */
-
 }
 
 .contact-us-item {
@@ -140,13 +139,16 @@
   outline: none;
   transition: border-color 0.3s;
 }
+.contact-us-container-main .contact-us-input {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important ;
+}
 
 .contact-us-input::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
 
 .contact-us-input:focus {
-  border-bottom: 1px solid #ff3e3e;
+  border-bottom: 1px solid #ff3e3e !important;
 }
 
 .form-us-submit {

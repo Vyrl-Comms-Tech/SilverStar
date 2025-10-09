@@ -9,18 +9,18 @@ gsap.registerPlugin(ScrollTrigger);
 const Counter = () => {
   const counterData = [
     {
-      number: 29,
+      number: 28,
       label: "Years",
-      suffix: " ",
+      // suffix: " ",
       description:
-        " of delivering seamless IT solutions across the UAE and MENA region.",
+        "of delivering seamless IT solutions across the UAE and MENA region.",
       hasImage: false,
     },
     {
       number: 500,
       label: "Global Brands",
       description:
-        " and certified partnerships including Lenovo, Dell, HP, Microsoft, and Cisco",
+        "and certified partnerships including Lenovo, Dell, HP, Microsoft,",
       hasImage: true,
     },
     {
@@ -28,7 +28,7 @@ const Counter = () => {
       suffix: "/7",
       label: "Support",
       description:
-        "to ensure your business runs without interruptions — onsite, remote, and online.",
+        " to ensure your business runs without interruptions onsite, remote, and online.",
       hasImage: false,
     },
   ];

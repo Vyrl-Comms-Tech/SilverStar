@@ -151,14 +151,25 @@ function Servicehero() {
           </div>
         </div>
         <div className="herosection2">
-          <h1 id="newtext" className="ab-increasae">
+          {/* <h1 id="newtext" className="ab-increasae">
             Know More About <br />
             <span id="red"> Silver Star</span>
+          </h1> */}
+          <h1>
+            Delivering <span id="red">IT.</span> Supporting <br />{" "}
+            <span id="red">IT.</span> Securing <span id="red">IT.</span>
           </h1>
-          {/* <h4>One-stop destination for all IT & ELECTRONICS leading it hardware and software <br/> supplies in dubai</h4> */}
+          <h4>
+            From data centers to desktops Silver Star Electronics provides end{" "}
+            <br id="remove-brrr" />
+            to end IT services designed to keep your business connected,
+            <br id="remove-brrr" /> protected, and performing at its best.
+          </h4>
           <div className="herobuttonholder">
             {/* <button id='explorebtn'>Explore <img src="/img/Varrow.svg"></img></button> */}
-            <button id="contactbtn">Contact</button>
+            <button className="service-hero-btn" id="contactbtn">
+              Explore Our Services
+            </button>
           </div>
           <img src="/img/Group 1a.avif" id="gdownarrow" alt="" />
           {/* <p>Corporate IT Hardware & Software Suppliers<br/>From All Major Brands</p> */}

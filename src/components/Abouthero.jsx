@@ -62,9 +62,20 @@ export default function Abouthero() {
       y: 70,
       opacity: 0,
     });
+    gsap.set(".herosection2 h4", {
+      y: 70,
+      opacity: 0,
+    });
 
     // Animate the text elements
     tl.to(".boundingelem", {
+      y: 0,
+      opacity: 1,
+      duration: 0.8,
+      stagger: 0.2,
+      ease: "power2.out",
+    });
+    tl.to(".herosection2 h4", {
       y: 0,
       opacity: 1,
       duration: 0.8,
@@ -191,10 +202,25 @@ export default function Abouthero() {
               </div>
             </div>
           </div>
-          <div className="herosection2">
+          <div className="herosection2" id="about-hero-section">
             <h1 id="ab-increasae" className="boundingelem ab-increasae">
-              Know More About <br /><span id="red"> Silver Star</span>
+              {/* Know More About <br /><span id="red"> Silver Star</span> */}
+              About us <br id="remove-brrr" />
+              doing <span id="red"> IT</span>
             </h1>
+            <h4>
+              We bridge innovation with expertise combining top tier hardware,{" "}
+              <br id="remove-brrr" />
+              licensed software, and end to end support to keep your business{" "}
+              <br id="remove-brrr" />
+              running seamlessly.
+            </h4>
+            {/* <h4>
+              Empowering businesses with reliable IT infrastructure,
+              cutting-edge solutions,
+              <br id="remove-brrr" /> and seamless support so you can focus on
+              what truly matters while we take care of IT.
+            </h4> */}
             {/* <h4>One-stop destination for all IT & ELECTRONICS leading it hardware and software <br/> supplies in dubai</h4> */}
             <div className="herobuttonholder">
               {/* <button id='explorebtn'>Explore <img src="/img/Varrow.svg"></img></button> */}
@@ -202,10 +228,14 @@ export default function Abouthero() {
             </div>
             <img src="/img/Group 1a.avif" id="gdownarrow" alt="" />
             <p>
+              Because when it comes to technology, we don’t just supply IT <br />{" "} we
+              simplify IT, secure IT, and support IT.
+            </p>
+            {/* <p>
               Corporate IT Hardware & Software Suppliers
               <br />
               From All Major Brands and IT reseller
-            </p>
+            </p> */}
           </div>
           <div className="herosection1" id="hero2">
             <div className="herotextholder" id="herotextholder2">

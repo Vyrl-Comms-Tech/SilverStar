@@ -256,14 +256,14 @@ const Product = ({ isAboutPage = false }) => {
           </svg>
         </div>
       </div>
-      <div className="product-last-section">
+      {/* <div className="product-last-section">
         <h4>As a leading IT solutions provider in UAE</h4>
         <p>
           We specialize in sourcing, supplying, and seamlessly integrating the
           right products for your business — all while ensuring we stay within
           your defined budget.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

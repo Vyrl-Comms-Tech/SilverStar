@@ -71,7 +71,7 @@
   font-family: oxygen-light-font, sans-serif;
 }
 .footer-description a {
-  font-size: clamp(13px, 2vw, 14px);
+  font-size: clamp(14px, 2vw, 14px);
   background-color: transparent;
   border: 0.5px solid #d9d9d9;
   padding: 12px 50px;
@@ -190,10 +190,15 @@
   }
 
   .footer .logo {
+    width: 100%;
+    /* border: 1px solid red; */
     position: static;
     display: flex;
     justify-content: center;
-    margin-bottom: 1.5rem;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-top: 15px;
+    /* margin-bottom: 1.5rem; */
   }
 
   .footer-main {
@@ -286,6 +291,9 @@
   .vyrl {
     padding-top: 15px;
     text-align: center;
+  }
+  .footer-description a {
+    padding: 8px 28px;
   }
 }
 

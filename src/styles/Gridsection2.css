@@ -73,7 +73,7 @@
   font-size: 0.8125rem;
   font-style: normal;
   font-weight: 300;
-  width: 50%;
+  width: 60%;
   position: relative;
   left: 55px;
   /* top: 30px; */
@@ -144,10 +144,21 @@
   bottom: 0;
   right: 20px;
 }
+.gridtext-4-text {
+  width: 100%;
+  padding-left: 20px;
+}
 .gridbox4text {
   width: 100%;
   padding-left: 20px;
   /* padding-top: 20px; */
+}
+.gridtext-4-text h4 {
+  color: #e8361e;
+  /* position: relative; */
+  /* top: 20px; */
+  font-family: var(--lightfont);
+  font-weight: 300;
 }
 .gridbox4text h4 {
   color: #e8361e;
@@ -156,11 +167,17 @@
   font-family: var(--lightfont);
   font-weight: 300;
 }
+.gridtext-4-text h5 {
+  /* color: #E8361E; */
+  /* position: relative; */
+  /* top: 25px; */
+  font-family: var(--lightfont);
+  font-weight: 300;
+}
 .gridbox4text h5 {
   /* color: #E8361E; */
   position: relative;
   top: 25px;
-
   font-family: var(--lightfont);
   font-weight: 300;
 }
@@ -386,6 +403,11 @@
 }
 
 /* Media query adjustments for smaller screens */
+@media (max-width: 1550px) {
+  .grid3box2 p {
+    width: 80%;
+  }
+}
 @media (max-width: 992px) {
   .gridsection {
     padding: 20px 10px;
@@ -402,6 +424,10 @@
   }
 }
 @media (max-width: 768px) {
+  .gridbox1 p {
+    top: 0;
+  }
+
   .gridsection {
     flex-direction: column;
     align-items: center;
@@ -434,7 +460,10 @@
   .col3 {
     width: 90%;
   }
-  .gridbox4text h4,.gridbox4text h5,
+  .gridbox4text h4,
+  .gridbox4text h5,
+  .gridtext-4-text h4,
+  .gridtext-4-text h5,
   .gridtext p,
   .gridbox1 p,
   .grid3box2 p,
@@ -516,16 +545,20 @@
   .gridsection {
     height: 140dvh !important;
   }
-  .gridbox4text h4,.gridbox4text h5,
+  .gridbox4text h5,
+  .gridtext-4-text h5,
+  .grid5box h5 {
+    font-size: 1.05rem;
+    /* background-color: #db412c !important; */
+    /* margin-top: 10px; */
+  }
+  .grid7box3 h4,
   .gridtext p,
   .gridbox1 p,
   .grid3box2 p,
-  .grid5box h5,
   .grid6box p,
-  .grid7box3 h4 {
-    font-size: 1.05rem;
-    /* font-size: clamp(15px, 1vw, 18px) !important; */
-    /* background-color: #db412c !important; */
-    /* margin-top: 10px; */
+  .gridbox4text h4,
+  .gridtext-4-text h4 {
+    font-size: clamp(15px, 0.98vw, 18px) !important;
   }
 }

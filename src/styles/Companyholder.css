@@ -1,0 +1,109 @@
+.companyholder {
+  width: 100%;
+  height: min-content;
+  /* border: 2px solid yellow; */
+  padding: 70px 50px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: #f5f5f5; */
+}
+#blue {
+  color: #273a8c;
+  /* font-family: "Nunito Sans"; */
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.companyholder h1 {
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: oxygen-light-font;
+  /* font-family: var(--light-font); */
+  /* font-family: "Nunito Sans"; */
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.aboutp {
+  color: #fff;
+  font-family: oxygen-light-font;
+  /* font-family: "Nunito Sans" !important; */
+  font-size: clamp(1.35rem, 1.7vw, 1.625rem);
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: normal !important;
+  text-transform: capitalize;
+}
+.companycard {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.cardleft,
+.cardright {
+  height: 50vh;
+  /* border: 1px solid #273a8c; */
+  /* width: 100%; */
+}
+.belowtoprow {
+  margin-top: 60px;
+}
+.cardleft {
+  /* border: 1px solid green; */
+  width: 50%;
+}
+.cardright {
+  width: 50%;
+}
+.cardright img {
+  width: 100%;
+  height: 100%;
+}
+.cardleft h5 {
+  color: #fff;
+  font-family: oxygen-light-font;
+  /* font-family: "Nunito Sans"; */
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.cardleft h1 {
+  color: #fff;
+  font-family: oxygen-light-font;
+  /* font-family: "Nunito Sans"; */
+  font-size: clamp(40px, 2.5vw, 50px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.cardleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 10px;
+}
+.cardright img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* object-fit: fill; */
+}
+
+@media (max-width: 1550px) {
+  .companyholder {
+    padding: 70px 30px;
+  }
+}

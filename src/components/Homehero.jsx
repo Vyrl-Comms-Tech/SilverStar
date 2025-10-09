@@ -39,7 +39,7 @@
 //         const returnDuration = (1.5 + Math.random() * 2) * durationFactor;
 //         gsap.to(element, {
 //           y: 0,
-//           duration: returnDuration,   
+//           duration: returnDuration,
 //           ease: "sine.inOut",
 //           onComplete: () => {
 //             // When complete, start a new random animation
@@ -360,7 +360,6 @@
 //   );
 // }
 
-
 import React, { useRef, useState } from "react";
 import "../styles/Homehero.css";
 import Navbar from "./Navbar";
@@ -399,7 +398,7 @@ export default function Homehero() {
         const returnDuration = (1.5 + Math.random() * 2) * durationFactor;
         gsap.to(element, {
           y: 0,
-          duration: returnDuration,   
+          duration: returnDuration,
           ease: "sine.inOut",
           onComplete: () => {
             // When complete, start a new random animation
@@ -495,7 +494,7 @@ export default function Homehero() {
       },
       "same2"
     );
-    
+
     tl.from(
       ".herosection2 p",
       {
@@ -505,7 +504,7 @@ export default function Homehero() {
       },
       "same2"
     );
-    
+
     tl.from(
       "#gdownarrow",
       {
@@ -531,7 +530,7 @@ export default function Homehero() {
       },
       0
     );
-    
+
     tl.from(
       "#right, #bottomrow2",
       {
@@ -579,13 +578,24 @@ export default function Homehero() {
           <div className="herosection2">
             <div id="newtext sm-hero" className="boundingelem">
               <h1>
+                Elevating your Digital
+                <br />
+                World with <span id="red"> Innovation</span>
+              </h1>
+              {/* <h1>
                 Empowering Your Business with Innovative
                 <br className="remhead" />
                 <span id="red">IT Solutions  & Supplies in the UAE</span>
-              </h1>
+              </h1> */}
+              {/* <h4>
+                One-stop destination for all IT & ELECTRONICS <br />
+                leading IT hardware and software supplies in dubai
+              </h4> */}
               <h4>
-                One-stop destination for all IT & ELECTRONICS <br />leading IT
-                hardware and software supplies in dubai
+                Empowering businesses with reliable IT infrastructure,
+                cutting-edge solutions,
+                <br id="remove-brrr" />{" "} and seamless support so you can focus on
+                what truly matters while we take care of IT.
               </h4>
             </div>
             <div className="herobuttonholder">

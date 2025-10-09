@@ -126,6 +126,6 @@ body {
 
 @media screen and (max-width: 600px) {
   #ab-increasae {
-    margin-bottom: 45px;
+    /* margin-bottom: 45px; */
   }
 }
