@@ -3,7 +3,7 @@ import CareersHero from "../components/CareersHero";
 // import Product from '../components/Product'
 import CareersForm from "../components/careersForm";
 import Footer from "../components/Footer";
-import Footer2 from "../components/Footer2";
+// import Footer2 from "../components/Footer2";
 
 const Careers = () => {
   return (
@@ -11,6 +11,7 @@ const Careers = () => {
       <CareersHero />
       {/* <Product /> */}
       <CareersForm />
+      {/* <CareersForm /> */}
       <Footer />
       {/* <Footer2/> */}
     </>
