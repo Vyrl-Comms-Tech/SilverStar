@@ -41,7 +41,7 @@ import React, { useState } from "react";
 import "../styles/careers-form.css";
 import { NavLink, useNavigate } from "react-router-dom";
 
-const careersForm = () => {
+const CareersForm = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [formData, setFormData] = useState({
     fullName: "",
@@ -296,4 +296,4 @@ const careersForm = () => {
   );
 };
 
-export default careersForm;
+export default CareersForm;
