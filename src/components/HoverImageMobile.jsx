@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "../Styles/hover-image-mobile.css";
+import "../styles/hover-image-mobile.css";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useNavigate } from "react-router-dom";
