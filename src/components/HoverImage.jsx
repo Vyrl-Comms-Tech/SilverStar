@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Companyholder.css";
+import "../styles/Companyholder.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
