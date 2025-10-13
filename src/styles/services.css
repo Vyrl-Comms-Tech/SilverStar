@@ -147,7 +147,7 @@
 /* Glassmorphism with Orange Text */
 .glassmorphism-orange {
   background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(19px);
   color: #e8361e;
 }
 
