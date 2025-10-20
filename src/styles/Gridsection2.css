@@ -473,6 +473,7 @@
     font-size: clamp(15px, 1vw, 18px) !important;
     /* background-color: #db412c !important; */
     /* margin-top: 10px; */
+    line-height: normal;
   }
   .gridbox6 {
     border-radius: 2.25rem;
@@ -560,5 +561,6 @@
   .gridbox4text h4,
   .gridtext-4-text h4 {
     font-size: clamp(15px, 0.98vw, 18px) !important;
+    line-height: normal;
   }
 }
