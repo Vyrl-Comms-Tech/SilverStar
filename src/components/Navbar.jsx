@@ -317,7 +317,10 @@ export default function Navbar() {
             <NavLink to="/careers">
               <li className="oxygen-light-font">Careers</li>
             </NavLink>
-            {/* <li className="oxygen-light-font">Contact</li> */}
+
+            <a target="_blank" href="https://shop.ssedubai.com">
+              <li className="oxygen-light-font">Shop</li>
+            </a>
           </ul>
           {/* <button >Let's Talk</button> */}
           {/* <NavLink to="/contact-us"> */}
@@ -366,6 +369,9 @@ export default function Navbar() {
           <NavLink to="/careers" onClick={toggleMobileMenu}>
             <h1>Careers</h1>
           </NavLink>
+          <a target="_blank" href="https://shop.ssedubai.com" onClick={toggleMobileMenu}>
+            <h1>Shop</h1>
+          </a>
           <NavLink to="/contact-us" onClick={toggleMobileMenu}>
             <h1>Contact</h1>
           </NavLink>
